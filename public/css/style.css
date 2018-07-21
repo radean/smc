@@ -1,8 +1,20 @@
+
+/*=========================*/
+/*C  U  S  T  O  M  I  Z  E  D*/
+hr {
+    height: 3px;
+    background: darkorange;
+}
+
+
+
+/*=========================*/
+
 html, body {
     background-color: #f5f5f5;
-    color: #636b6f;
+    color: #131519;
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     height: 100vh;
     margin: 0;
 }

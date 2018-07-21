@@ -8,8 +8,9 @@
     <title>Saudi Maritime Company</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,600" rel="stylesheet" type="text/css">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <!-- Styles -->
     <!--BootStrap-->
     <link rel="stylesheet" href="css/app.css">
@@ -96,9 +97,93 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <!--Extra Content-->
     <div class="container">
-        SMC Website
+        <div class="row">
+            <div class="col-sm-3 p-5">
+                <h2><i class="fas fa-phone"></i> Call Center</h2>
+                0300-23568956 <br>
+                0300-23568956 <br>
+                0300-23568956 <br>
+            </div>
+            <div class="col-sm-3 p-5">
+                <h2><i class="fas fa-map-marked-alt"></i> Locations</h2>
+                <ul>
+                    <li>Australia</li>
+                    <li>Canad</li>
+                    <li>France</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 p-5 ">
+                <h2><i class="fas fa-life-ring"></i> Support</h2>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div class="container">
+        <!--About Heading-->
+        <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+            <h2>About <span class="font-weight-bold"> SMC</span></h2>
+            <hr class="mx-5">
+        </div>
+        <!--Text About-->
+        <p>
+            Saudi Maritime Company was established in early 1970’s by setting up an office in Dammam
+            at Kingdom of Saudi Arabia by an enterprising Saudi Marine Captain, Ibrahim Barrak Al
+            Omani, educated in United Kingdom and served as senior Ranking Officer on board reputed
+            international shipping lines. Within a short span of time we have grown regionally covering
+            Western and Eastern region of KSA. Our unique business model and enduring commitment
+            propels us forward, we reach our goals. Saudi Maritime became part of absco.com (ABSA
+            Group) in 1988 serving Principals and Agents worldwide.
+        </p>
+        <p>
+            Saudi Maritime Company has grown enormously and gained the reputation of being one of
+            the leading Shipping Agencies in this region handling Mega Containers &amp; RORO Carriers. The
+            HQ of SAUDI MARITIME COMPANY is situated at Dammam and having well established
+            offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere locally and
+            globally.
+        </p>
+        <!--Services Heading-->
+        <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+            <h2>Our <span class="font-weight-bold"> Services </span></h2>
+            <hr class="mx-5">
+        </div>
+        <!--Text Services-->
+        <p>
+            Saudi Maritime Company has grown enormously and gained the reputation of being one of
+            the leading Shipping Agencies in this region handling Mega Carrier Hyundai Merchant
+            Marine ( <a href="http://hmm21.com">www.hmm21.com</a> ) . The HQ of SMC is situated at Dammam and having well
+            established offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere
+            locally and globally.
+        </p>
+        <p>
+            SMC is perfectly situated to provide you a full range of Ocean Freight, Air Freight and Land
+            Transportation Services for both import and export along with warehousing, distribution
+            through our group ABSA. Our mission is to provide to our clients “Quality and problem-
+            solving logistics” and “Supply chain freight management solutions”.
+        </p>
+    </div>
 
+
+    <!--Footer-->
+    <div class="container-fluid">
+        <!--Header-->
+        <div class="row border border-right-0 border-left-0 my-2 pl-5 pr-5">
+            <div class="col-sm-6 p-5">
+                <h1>SMC</h1>
+            </div>
+            <div class="col-sm-3 p-5">
+                <h2><i class="fas fa-phone"></i> Call Center</h2>
+                0300-23568956 <br>
+                0300-84234254
+            </div>
+            <div class="col-sm-3 p-5">
+                <h2><i class="fas fa-map-marked-alt"></i> Locations</h2>
+                UAE <br>
+            </div>
+        </div>
+        <!--Body-->
+        <h1>This is Footer</h1>
     </div>
 
 <script src="js/app.js"></script>
