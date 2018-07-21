@@ -19,46 +19,89 @@
 
 <body>
 <!--Main Navigation Bar-->
-    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light fixed-top">
-        <a class="navbar-brand" href="#">SMC</a>
+    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 ">
+        <a class="navbar-brand px-5" href="#">SMC</a>
         <!--<a class="navbar-brand" href="#">Saudi Maritime Company</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse " id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Blogs & News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link px-5" href="#">+966-13-813-8500</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form class="form-inline">
+                <button class="btn btn-lg btn-outline-primary" type="button">Contact us</button>
             </form>
         </div>
     </nav>
-<div class="flex-center position-ref full-height">
-    <div class="content">
-        <div class="title m-b-md">
-            SMC Website
+<!--Secondary NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 ">
+        <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shipping</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <!--Main Content Body-->
+    <!--Main Carousel-->
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mainCarousel" data-slide-to="1"></li>
+            <li data-target="#mainCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Trucks Heading Out</h5>
+                    <p>Trucks should be on tracks</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/broadcast/shipping.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Shipping Moving Faster than Usual</h5>
+                    <p>We have to get going</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/broadcast/containers.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Stored amount of Parcels</h5>
+                    <p>No one want their parcels delayed</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-</div>
+    <div class="container">
+        SMC Website
+
+    </div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
 
