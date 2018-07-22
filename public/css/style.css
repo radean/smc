@@ -1,12 +1,22 @@
 
 /*=========================*/
 /*C  U  S  T  O  M  I  Z  E  D*/
+.secondaryBG {
+    background: rgb(243, 243, 243);
+}
+
 hr {
     height: 3px;
     background: darkorange;
 }
-
-
+a {
+    font-style: normal;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
 
 /*=========================*/
 

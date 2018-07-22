@@ -166,9 +166,9 @@
 
 
     <!--Footer-->
-    <div class="container-fluid">
+    <div class="container-fluid bg-light">
         <!--Header-->
-        <div class="row border border-right-0 border-left-0 my-2 pl-5 pr-5">
+        <div class="row border border-bottom-0 px-4">
             <div class="col-sm-6 p-5">
                 <h1>SMC</h1>
             </div>
@@ -183,7 +183,62 @@
             </div>
         </div>
         <!--Body-->
-        <h1>This is Footer</h1>
+        <div class="container-fluid">
+            <div class="row border-top px-3">
+                <div class="col-sm p-5">
+                    <h4 class="font-weight-bold"> Locations</h4>
+                    <a class="text-dark" href="#">UAE</a> <br>
+                    <a class="text-dark" href="#">USA</a> <br>
+                    <a class="text-dark" href="#">KSA</a> <br>
+                    <a class="text-dark" href="#">PAK</a> <br>
+                    <a class="text-dark" href="#">SRL</a> <br>
+                </div>
+                <div class="col-sm p-5">
+                    <h4 class="font-weight-bold"> Call Center</h4>
+                    0300-23568956 <br>
+                    0300-84234254
+                </div>
+                <div class="col-sm p-5">
+                    <h4 class="font-weight-bold">Maps</h4>
+                    <a class="text-dark" href="#">UAE</a> <br>
+                    <a class="text-dark" href="#">USA</a> <br>
+                    <a class="text-dark" href="#">KSA</a> <br>
+                    <a class="text-dark" href="#">PAK</a> <br>
+                    <a class="text-dark" href="#">SRL</a> <br>
+                </div>
+                <div class="col-sm p-5">
+                    <h4 class="font-weight-bold"> Notation</h4>
+                    <a class="text-dark" href="#">This is Footer</a>
+                    <div class="btn btn-dark btn-lg btn-outline-secondary mt-5"> Get a free rate</div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="row secondaryBG px-4">
+            <div class="col-sm p-5">
+                <h4 class="font-weight-bold"> Delivered on time with no hassle.</h4> <br>
+                <a class="text-dark m-2" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a class="text-dark m-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a class="text-dark m-2" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                <a class="text-dark m-2" href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>
+                <a class="text-dark m-2" href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <br>
+                <h6 class="mt-5">&copy; 2018 SMC (Saudi Maritime Company) / All rights reserved</h6>
+            </div>
+            <div class="col-sm p-5">
+                <h4 class="font-weight-bold"> BE UP TO DATE:</h4> <br>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-signup">Sign me up!</button>
+                        </div>
+                    </div>
+                </form>
+                <br>
+                <h6 class="mt-0"><a href="#"> About </a>| <a href="#">Services </a> | <a href="#">Term & Conditions </a> | <a href="#">Privacy Policy </a> </h6>
+            </div>
+        </div>
     </div>
 
 <script src="js/app.js"></script>
