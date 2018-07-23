@@ -4,10 +4,13 @@
 .secondaryBG {
     background: rgb(243, 243, 243);
 }
+.bg-cream {
+    background: rgb(240, 243, 231);
+}
 
 hr {
-    height: 3px;
-    background: #3097D1;
+    height: 2px;
+    background: #0088c9;
 }
 a {
     font-style: normal;
@@ -19,6 +22,9 @@ a:hover {
 }
 .active {
     color: #31b0d5;
+}
+.primary-text {
+    color: #00a2e1;
 }
 .secondary-text {
     color: #e1e1e1;

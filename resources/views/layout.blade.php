@@ -78,7 +78,7 @@
         <div class="col-sm-3 p-5">
             <div class="row">
                 <div class="col-sm-4">
-                    <i class="fas fa-phone fa-4x secondary-text"></i>
+                    <i class="fas fa-phone fa-4x secondary-text pt-2"></i>
                 </div>
                 <div class="col-sm-8">
                     <h4>Call Center</h4>
@@ -90,11 +90,12 @@
         <div class="col-sm-3 p-5">
             <div class="row">
                 <div class="col-sm-4">
-                    <i class="fas fa-map-marked-alt fa-4x secondary-text"></i>
+                    <i class="fas fa-calendar-alt fa-4x secondary-text pt-2"></i>
                 </div>
                 <div class="col-sm-8">
-                    <h4>Locations</h4>
-                    <h6>KSA</h6>
+                    <h4>Timing</h4>
+                    <h6>Sun - Thursday</h6>
+                    <h6>08:00 - 17:00</h6>
                 </div>
             </div>
         </div>
@@ -102,7 +103,27 @@
     <!--Body-->
     <div class="container-fluid">
         <div class="row border-top px-3">
-            <div class="col-sm p-5 height">
+            <div class="col-sm p-5">
+                <h4 class="font-weight-bold">Get in touch</h4>
+                <a class="text-dark " href="#">We will contact you soon.</a>
+                <form>
+                    <div class="form-group">
+                        <input name="contactFormEmail" type="email" class="form-control form-control-sm" id="emailAddress" aria-describedby="emailHelp" placeholder="Email*">
+                    </div>
+                    <div class="form-group">
+                        <select name="contactFormBranch" class="form-control form-control-sm">
+                            <option value="1">Head Office - Dammam</option>
+                            <option value="2">Riyadh Branch</option>
+                            <option value="3">Jeddah Branch</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="contactFormMessage" class="form-control form-control-sm" id="message" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm p-5">
                 <h4 class="font-weight-bold">Head Office</h4>
                 <h5>Dammam, Saudi Arabia</h5>
                 <hr>
@@ -129,11 +150,6 @@
                 Saudi Arabia <br>
                 Tel : +966-12-6038000 <br>
                 Fax : +966-12-6038022 <br>
-            </div>
-            <div class="col-sm p-5">
-                <h4 class="font-weight-bold"> Notation</h4>
-                <a class="text-dark " href="#">This is Footer</a>
-                <div class="btn btn-dark btn-lg btn-outline-secondary mt-5"> Get a free rate</div>
             </div>
         </div>
     </div>
