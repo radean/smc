@@ -21,7 +21,10 @@
 <body>
 <!--Main Navigation Bar-->
     <nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 ">
-        <a class="navbar-brand px-5" href="#">SMC</a>
+        <a class="navbar-brand px-5" href="#">
+            <img src="img/logo.png" width="60" height="50" class="d-inline-block" alt="">
+            Saudi Maritime Company
+        </a>
         <!--<a class="navbar-brand" href="#">Saudi Maritime Company</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
