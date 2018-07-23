@@ -17,22 +17,16 @@ Route::get('/', function () {
 
     $name = "Raheel Shaikh";
 
-//    $tasks = DB::table('tasks')->get();
     $tasks = App\Task::all();
-
 
     return view('home', compact('name', 'tasks'));
 
 });
+Route::get('/','TasksController@home');
 
-Route::get('/tasks/{task}', function ($id) {
-
-//    $task = DB::table('tasks')->find($id);
-
-    $task =App\Task::find($id);
-
-    return view('task.show', compact( 'task'));
-});
+//  Task Details
+//===============
+Route::get('/tasks/{task}', 'TasksController@show');
 
 
 //  Home Page
