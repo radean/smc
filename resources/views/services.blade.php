@@ -4,7 +4,6 @@
 @section('content')
     <!--About-->
     <div class="container">
-        <h1>Services</h1>
         <!--Services Heading-->
         <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
             <h2>Our <span class="font-weight-bold"> Services </span></h2>

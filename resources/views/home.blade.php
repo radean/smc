@@ -44,22 +44,41 @@
     <!--Extra Content-->
     <div class="container">
         <div class="row">
-            <div class="col-sm-3 p-5">
-                <h2><i class="fas fa-phone"></i> Call Center</h2>
-                0300-23568956 <br>
-                0300-23568956 <br>
-                0300-23568956 <br>
+            <div class="col-sm-3 p-4">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fas fa-phone fa-4x secondary-text"></i>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Call Center</h4>
+                        <h6>+966-13-813-8500</h6>
+                        <h6>+966-81-645-6453</h6>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-3 p-5">
-                <h2><i class="fas fa-map-marked-alt"></i> Locations</h2>
-                <ul>
-                    <li>Australia</li>
-                    <li>Canad</li>
-                    <li>France</li>
-                </ul>
+            <div class="col-sm-3 p-4">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fas fa-map-marked-alt fa-4x secondary-text"></i>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Locations</h4>
+                        <h6>KSA</h6>
+                        <h6>USA</h6>
+                        <h6>UAE</h6>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 p-5 ">
-                <h2><i class="fas fa-life-ring"></i> Support</h2>
+            <div class="col-sm-6 p-4 ">
+                <h4 class="font-weight-bold"> Write to us</h4> <br>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-signup">Sign me up!</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

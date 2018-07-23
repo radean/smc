@@ -8,7 +8,7 @@
     <title>Saudi Maritime Company</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
     <!--Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <!-- Styles -->
@@ -47,69 +47,92 @@
     </div>
 </nav>
 <!--Secondary NavBar-->
-<nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 font-weight-bold ">
+<nav class="navbar navbar-expand-md navbar-light text-dark bg-light px-5">
     <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about">About</a>
+                <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-bold">About</h5> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-5 {{ Request::path() == 'services' ? 'active' : '' }}" href="/services">Services</a>
+                <a class="nav-link px-5 {{ Request::path() == 'services' ? 'active' : '' }}" href="/services"><h5 class="font-weight-bold">Services</h5></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping">Shipping</a>
+                <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-bold">Shipping</h5></a>
             </li>
         </ul>
     </div>
 </nav>
 <!--Main Content Body-->
 
-@yield('content');
+@yield('content')
 
 <!--Footer-->
 <div class="container-fluid bg-light">
     <!--Header-->
     <div class="row border border-bottom-0 px-4">
         <div class="col-sm-6 p-5">
-            <h1>SMC</h1>
+            <a class="navbar-brand " href="/">
+                <img src="img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
+            </a>
         </div>
         <div class="col-sm-3 p-5">
-            <h2><i class="fas fa-phone"></i> Call Center</h2>
-            0300-23568956 <br>
-            0300-84234254
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fas fa-phone fa-4x secondary-text"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h4>Call Center</h4>
+                    <h6>+966-13-813-8500</h6>
+                    <h6>+966-81-645-6453</h6>
+                </div>
+            </div>
         </div>
         <div class="col-sm-3 p-5">
-            <h2><i class="fas fa-map-marked-alt"></i> Locations</h2>
-            UAE <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fas fa-map-marked-alt fa-4x secondary-text"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h4>Locations</h4>
+                    <h6>KSA</h6>
+                </div>
+            </div>
         </div>
     </div>
     <!--Body-->
     <div class="container-fluid">
         <div class="row border-top px-3">
-            <div class="col-sm p-5">
-                <h4 class="font-weight-bold"> Locations</h4>
-                <a class="text-dark" href="#">UAE</a> <br>
-                <a class="text-dark" href="#">USA</a> <br>
-                <a class="text-dark" href="#">KSA</a> <br>
-                <a class="text-dark" href="#">PAK</a> <br>
-                <a class="text-dark" href="#">SRL</a> <br>
+            <div class="col-sm p-5 height">
+                <h4 class="font-weight-bold">Head Office</h4>
+                <h5>Dammam, Saudi Arabia</h5>
+                <hr>
+                Al-Barrak Tower, Najd Street, <br>
+                P.O. Box 2384, Dammam 31451 <br>
+                Saudi Arabia. Tel : +966-13-8199400 <br>
+                Fax : +966-13-8274778 <br>
             </div>
             <div class="col-sm p-5">
-                <h4 class="font-weight-bold"> Call Center</h4>
-                0300-23568956 <br>
-                0300-84234254
+                <h4 class="font-weight-bold">Riyadh Branch</h4>
+                <h5>Al – Barrak building</h5>
+                <hr>
+                P.O.Box # 16127, <br>
+                Riyadh – 11464, <br>
+                Tel : +966-11 2067662 <br>
+                Fax : +966-11 2067553 <br>
             </div>
             <div class="col-sm p-5">
-                <h4 class="font-weight-bold">Maps</h4>
-                <a class="text-dark" href="#">UAE</a> <br>
-                <a class="text-dark" href="#">USA</a> <br>
-                <a class="text-dark" href="#">KSA</a> <br>
-                <a class="text-dark" href="#">PAK</a> <br>
-                <a class="text-dark" href="#">SRL</a> <br>
+                <h4 class="font-weight-bold">Branch-Jeddah</h4>
+                <h5>Jeddah Branch</h5>
+                <hr>
+                Captain Barrak Commercial Tower, <br>
+                Al Baghdadia Jeddah 21484, <br>
+                Saudi Arabia <br>
+                Tel : +966-12-6038000 <br>
+                Fax : +966-12-6038022 <br>
             </div>
             <div class="col-sm p-5">
                 <h4 class="font-weight-bold"> Notation</h4>
-                <a class="text-dark" href="#">This is Footer</a>
+                <a class="text-dark " href="#">This is Footer</a>
                 <div class="btn btn-dark btn-lg btn-outline-secondary mt-5"> Get a free rate</div>
             </div>
         </div>
