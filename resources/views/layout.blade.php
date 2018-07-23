@@ -21,7 +21,7 @@
 <body>
 <!--Main Navigation Bar-->
 <nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 font-weight-bold">
-    <a class="navbar-brand px-5" href="#">
+    <a class="navbar-brand px-5" href="/">
         <img src="img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
 <!--        Saudi Maritime Company-->
     </a>
@@ -40,22 +40,24 @@
             </li>
         </ul>
         <form class="form-inline">
+            <a href="/contact">
             <button class="btn btn-lg btn-outline-primary" type="button">Contact us</button>
+            </a>
         </form>
     </div>
 </nav>
 <!--Secondary NavBar-->
-<nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 font-weight-bold">
+<nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 font-weight-bold ">
     <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+            <li class="nav-item">
+                <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-5" href="#">Services</a>
+                <a class="nav-link px-5 {{ Request::path() == 'services' ? 'active' : '' }}" href="/services">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Shipping</a>
+                <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping">Shipping</a>
             </li>
         </ul>
     </div>

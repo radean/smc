@@ -32,3 +32,18 @@ Route::get('/tasks/{task}', 'TasksController@show');
 //  Home Page
 //===============
 Route::get('/tasks', 'TasksController@index');
+
+
+//  About Page
+//===============
+Route::get('/about', 'MainController@index');
+
+
+//  Services Page
+//===============
+Route::get('/services', 'MainController@services');
+
+
+//  Contact Page
+//===============
+Route::get('/contact', 'MainController@contact');
