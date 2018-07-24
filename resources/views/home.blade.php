@@ -69,12 +69,12 @@
                     </div>
                 </div>
                 <div class="col-sm-6 p-4 ">
-                    <h4 class="font-weight-bold"> Write to us</h4> <br>
+                    <h4 class="font-weight-bold">Let us help you</h4> <br>
                     <form action="">
                         <div class="input-group mb-3">
                             <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" id="button-signup">Sign me up!</button>
+                                <button class="btn btn-outline-secondary" type="button" id="button-signup">contact me</button>
                             </div>
                         </div>
                     </form>
@@ -133,7 +133,7 @@
                 <div class="col-sm p-3">
                     <div class="card text-center" style="width: 14rem;">
                         <div class="card-body">
-                            <i class="fas fa-ship primary-text fa-4x pb-2"></i>
+                            <img src="{{ url('/') }}/img/icons/cargoShip.png" alt="">
                             <h5 class="card-title">Ocean Freight</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
@@ -142,7 +142,7 @@
                 <div class="col-sm p-3">
                     <div class="card text-center" style="width: 14rem;">
                         <div class="card-body">
-                            <i class="fas fa-plane primary-text fa-4x pb-2"></i>
+                            <img src="{{ url('/') }}/img/icons/airFreight.png" alt="">
                             <h5 class="card-title">Air Freight</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
@@ -151,7 +151,7 @@
                 <div class="col-sm p-3">
                     <div class="card text-center" style="width: 14rem;">
                         <div class="card-body">
-                            <i class="fas fa-truck-moving primary-text fa-4x pb-2"></i>
+                            <img src="{{ url('/') }}/img/icons/truck.png" alt="">
                             <h5 class="card-title">Land Transport</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
@@ -160,13 +160,18 @@
                 <div class="col-sm p-3">
                     <div class="card text-center" style="width: 14rem;">
                         <div class="card-body">
-                            <i class="fas fa-warehouse primary-text fa-4x pb-2"></i>
+                            <img src="{{ url('/') }}/img/icons/warehouse.png" alt="">
                             <h5 class="card-title"> Warehousing & Distribution</h5>
                             <p class="card-text">With supporting text below as a natural lead-in.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mx-auto p-2 m-2 text-dark" style="width: fit-content;">
+            <a href="/services">
+                <button type="button" class="btn btn-outline-primary">All Services</button>
+            </a>
         </div>
     </div>
 @endsection

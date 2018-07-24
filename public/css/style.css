@@ -44,6 +44,14 @@ html, body {
     height: 100vh;
 }
 
+.half-height {
+    height: 50vh;
+}
+
+.quater-height {
+    height: 25vh;
+}
+
 .flex-center {
     align-items: center;
     display: flex;

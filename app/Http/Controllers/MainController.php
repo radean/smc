@@ -16,7 +16,11 @@ class MainController extends Controller
     //Redirect To Services page
     public function services()
     {
-        return view('services');
+        return view('services.index');
+    }
+    public function hms()
+    {
+        return view('services.hms');
     }
 
     //Redirect To Contact page
