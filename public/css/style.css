@@ -29,6 +29,13 @@ a:hover {
 .secondary-text {
     color: #e1e1e1;
 }
+.blockLogo {
+    width: 35%;
+    height: 35%;
+}
+.backgroundImage {
+    background-size: cover;
+}
 /*=========================*/
 
 html, body {

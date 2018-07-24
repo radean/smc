@@ -14,21 +14,21 @@
                 <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Trucks Heading Out</h5>
-                    <p>Trucks should be on tracks</p>
+                    <p class="text-justify">Trucks should be on tracks</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/broadcast/shipping.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Shipping Moving Faster than Usual</h5>
-                    <p>We have to get going</p>
+                    <p class="text-justify">We have to get going</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/broadcast/containers.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Stored amount of Parcels</h5>
-                    <p>No one want their parcels delayed</p>
+                    <p class="text-justify">No one want their parcels delayed</p>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
             <hr class="mx-5">
         </div>
         <!--Text About-->
-        <p>
+        <p class="text-justify">
             Saudi Maritime Company was established in early 1970’s by setting up an office in Dammam
             at Kingdom of Saudi Arabia by an enterprising Saudi Marine Captain, Ibrahim Barrak Al
             Omani, educated in United Kingdom and served as senior Ranking Officer on board reputed
@@ -99,7 +99,7 @@
             propels us forward, we reach our goals. Saudi Maritime became part of absco.com (ABSA
             Group) in 1988 serving Principals and Agents worldwide.
         </p>
-        <p>
+        <p class="text-justify">
             Saudi Maritime Company has grown enormously and gained the reputation of being one of
             the leading Shipping Agencies in this region handling Mega Containers &amp; RORO Carriers. The
             HQ of SAUDI MARITIME COMPANY is situated at Dammam and having well established
@@ -115,14 +115,14 @@
             <hr class="mx-5">
         </div>
         <!--Text Services-->
-        <p>
+        <p class="text-justify">
             Saudi Maritime Company has grown enormously and gained the reputation of being one of
             the leading Shipping Agencies in this region handling Mega Carrier Hyundai Merchant
             Marine ( <a href="http://hmm21.com">www.hmm21.com</a> ) . The HQ of SMC is situated at Dammam and having well
             established offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere
             locally and globally.
         </p>
-        <p>
+        <p class="text-justify">
             SMC is perfectly situated to provide you a full range of Ocean Freight, Air Freight and Land
             Transportation Services for both import and export along with warehousing, distribution
             through our group ABSA. Our mission is to provide to our clients “Quality and problem-
