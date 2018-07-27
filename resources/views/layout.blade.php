@@ -18,56 +18,64 @@
     <link rel="stylesheet" href="http://localhost:8000/css/style.css">
 </head>
 
-<body>
+<body >
 <!--Main Navigation Bar-->
-<nav class="navbar navbar-expand-md navbar-light text-dark bg-light font-weight-light px-5 font-weight-bold">
-    <a class="navbar-brand px-5" href="/">
-        <img src="{{ url('/') }}/img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
-<!--        Saudi Maritime Company-->
-    </a>
-    <!--<a class="navbar-brand" href="#">Saudi Maritime Company</a>-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm position-absolute " style="z-index: 10">
+            <nav class="navbar navbar-expand-md text-white bg-transparent font-weight-light px-5 font-weight-bold">
+                <a class="navbar-brand px-5" href="/">
+                    <img src="{{ url('/') }}/img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
+                    <!--        Saudi Maritime Company-->
+                </a>
+                <!--<a class="navbar-brand" href="#">Saudi Maritime Company</a>-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Blogs & News</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link px-3" href="#">+966-13-813-8500</a>
-            </li>
-        </ul>
-        <form class="form-inline">
-            <a href="/contact">
-            <button class="btn btn-lg btn-outline-primary" type="button">Contact us</button>
-            </a>
-        </form>
-    </div>
-</nav>
-<!--Secondary NavBar-->
-<nav class="navbar navbar-expand-md navbar-light text-dark bg-light px-5">
-    <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
-        <ul class="navbar-nav">
-            <li class="nav-item px-2">
-                <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-bold">About</h5> </a>
-            </li>
-            <li class="nav-item px-2 dropdown" >
-                <h5 class="font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/services/hms"><h5 class="font-weight-bold">HMM (Hyundai Merchant Marine)</h5></a>
-                    <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Perma Shipping Line</h5></a>
-                    <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">EUKOR Car Carrier Inc</h5></a>
-                    <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Hyundai Glovis</h5></a>
+                <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Blogs & News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">+966-13-813-8500</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <a href="/contact">
+                            <button class="btn btn-lg btn-outline-primary" type="button">Contact us</button>
+                        </a>
+                    </form>
                 </div>
-            </li>
-            <li class="nav-item px-2">
-                <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-bold">Shipping</h5></a>
-            </li>
-        </ul>
+            </nav>
+            <!--HR-->
+            <hr class="navigation">
+            <!--Secondary NavBar-->
+            <nav class="navbar navbar-expand-md text-white bg-transparent px-5">
+                <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-bold">About</h5> </a>
+                        </li>
+                        <li class="nav-item px-2 dropdown" >
+                            <h5 class="font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/services/hms"><h5 class="font-weight-bold">HMM (Hyundai Merchant Marine)</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Perma Shipping Line</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">EUKOR Car Carrier Inc</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Hyundai Glovis</h5></a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-bold">Shipping</h5></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-</nav>
+</div>
 <!--Main Content Body-->
 @yield('content')
 

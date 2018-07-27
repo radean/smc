@@ -3,27 +3,34 @@
 
 @section('content')
     <!--HMS-->
-    <div class="container">
-        <!--Services Heading-->
-        <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-            <h2>Our <span class="font-weight-bold"> HMS </span></h2>
-            <hr class="mx-5">
+    <div class="container-fluid">
+        <!--Page BGS Image-->
+        <div class="row">
+            <div class="col-sm-12 bgs hmmBG half-height">
+                <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Hyundai Merchant Marine CO., LTD.</h1>
+                </div>
+            </div>
         </div>
-        <!--Text Services-->
-        <p>
-            Saudi Maritime Company has grown enormously and gained the reputation of being one of
-            the leading Shipping Agencies in this region handling Mega Carrier Hyundai Merchant
-            Marine ( <a href="http://hmm21.com">www.hmm21.com</a> ) . The HQ of SMC is situated at Dammam and having well
-            established offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere
-            locally and globally.
-        </p>
-        <p>
-            SMC is perfectly situated to provide you a full range of Ocean Freight, Air Freight and Land
-            Transportation Services for both import and export along with warehousing, distribution
-            through our group ABSA. Our mission is to provide to our clients “Quality and problem-
-            solving logistics” and “Supply chain freight management solutions”.
-        </p>
-        <div class="container">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm">
+                    <!--Text Services-->
+                    <p>
+                        Saudi Maritime Company has grown enormously and gained the reputation of being one of
+                        the leading Shipping Agencies in this region handling Mega Carrier Hyundai Merchant
+                        Marine ( <a href="http://hmm21.com">www.hmm21.com</a> ) . The HQ of SMC is situated at Dammam and having well
+                        established offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere
+                        locally and globally.
+                    </p>
+                    <p>
+                        SMC is perfectly situated to provide you a full range of Ocean Freight, Air Freight and Land
+                        Transportation Services for both import and export along with warehousing, distribution
+                        through our group ABSA. Our mission is to provide to our clients “Quality and problem-
+                        solving logistics” and “Supply chain freight management solutions”.
+                    </p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm p-3">
                     <div class="card text-center" style="width: 14rem;">

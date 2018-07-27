@@ -68,24 +68,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/001.jpg'); b">
-                    <div class="mx-auto text-white text-center" style="width: fit-content;">
-                        <img class="blockLogo" src="{{ url('/') }}/img/logos/hmm.png" alt="">
-                        <h6>Hyundai Merchant Marine CO., LTD.</h6>
-                        <hr class="mx-5">
-                        <h6 class="mb-3">
-                            HMM is a global integrated
-                            logistics company providing
-                            the best transport services. <br>
-                        </h6>
-                        <p class="text-justify">
-                            Our professionally skilled and experienced staffs
-                            provide customers with world-class transportation
-                            services via more than 100 state-of-art vessels and
-                            various logistics facilities that span a worldwide
-                            network of ports together with industry-leading
-                            IT systems.
-                        </p>
-                    </div>
+                    <a href="services/hmm">
+                        <div class="mx-auto text-white text-center" style="width: fit-content;">
+                            <img class="blockLogo" src="{{ url('/') }}/img/logos/hmm.png" alt="">
+                            <h6>Hyundai Merchant Marine CO., LTD.</h6>
+                            <hr class="mx-5">
+                            <h6 class="mb-3">
+                                HMM is a global integrated
+                                logistics company providing
+                                the best transport services. <br>
+                            </h6>
+                            <p class="text-justify">
+                                Our professionally skilled and experienced staffs
+                                provide customers with world-class transportation
+                                services via more than 100 state-of-art vessels and
+                                various logistics facilities that span a worldwide
+                                network of ports together with industry-leading
+                                IT systems.
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/002.jpg');">
                     <div class="mx-auto text-white text-center" style="width: fit-content;">

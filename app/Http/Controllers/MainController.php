@@ -18,9 +18,9 @@ class MainController extends Controller
     {
         return view('services.index');
     }
-    public function hms()
+    public function hmm()
     {
-        return view('services.hms');
+        return view('services.hmm');
     }
 
     //Redirect To Contact page

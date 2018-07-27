@@ -46,7 +46,7 @@ Route::get('/services', 'MainController@services');
 // Children Page
 //=============
 //H  M  S
-Route::get('/services/hms', 'MainController@hms');
+Route::get('/services/hmm', 'MainController@hmm');
 
 
 Route::get("/services/psl", "MainController@psl");

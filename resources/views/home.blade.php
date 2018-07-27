@@ -3,43 +3,83 @@
 
 @section('content')
     <!--Main Carousel-->
-    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#mainCarousel" data-slide-to="1"></li>
-            <li data-target="#mainCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Trucks Heading Out</h5>
-                    <p class="text-justify">Trucks should be on tracks</p>
-                </div>
+    <div class="full-screen" data-ride="carousel">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="truck" role="tabpanel" aria-labelledby="truck-tab">
+                <img class="d-block w-100" src="img/broadcast/trucks-cover.jpg" alt="First slide">
             </div>
-            <div class="carousel-item">
+            <div class="tab-pane fade" id="air" role="tabpanel" aria-labelledby="air-tab">
                 <img class="d-block w-100" src="img/broadcast/shipping.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Shipping Moving Faster than Usual</h5>
-                    <p class="text-justify">We have to get going</p>
-                </div>
             </div>
-            <div class="carousel-item">
+            <div class="tab-pane fade" id="ocean" role="tabpanel" aria-labelledby="ocean-tab">
                 <img class="d-block w-100" src="img/broadcast/containers.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Stored amount of Parcels</h5>
-                    <p class="text-justify">No one want their parcels delayed</p>
-                </div>
             </div>
+            <div class="tab-pane fade" id="warehouse" role="tabpanel" aria-labelledby="warehouse-tab">
+                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">
+            </div>
+            <ul class="nav nav-tabs bg-transparent nav-justified text-dark" id="myTab" role="tablist">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark active" id="truck-tab" data-toggle="tab" href="#truck" role="tab" aria-controls="truck" aria-selected="true">
+                        <img src="{{ url('/') }}/img/icons/truck.png" alt="">
+                        <h3>Land Transport</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="air-tab" data-toggle="tab" href="#air" role="tab" aria-controls="air" aria-selected="false">
+                        <img src="{{ url('/') }}/img/icons/airFreight.png" alt="">
+                        <h3>Air Freight</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="ocean-tab" data-toggle="tab" href="#ocean" role="tab" aria-controls="ocean" aria-selected="false">
+                        <img src="{{ url('/') }}/img/icons/cargoShip.png" alt="">
+                        <h3>Ocean Cargo</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="warehouse-tab" data-toggle="tab" href="#warehouse" role="tab" aria-controls="warehouse" aria-selected="false">
+                        <img src="{{ url('/') }}/img/icons/warehouse.png" alt="">
+                        <h3>Warehouse & Logistics</h3>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+<!--        <ol class="carousel-indicators">-->
+<!--            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>-->
+<!--            <li data-target="#mainCarousel" data-slide-to="1"></li>-->
+<!--            <li data-target="#mainCarousel" data-slide-to="2"></li>-->
+<!--        </ol>-->
+<!--        <div class="carousel-inner">-->
+<!--            <div class="carousel-item active">-->
+<!--                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">-->
+<!--                <div class="carousel-caption d-none d-md-block">-->
+<!--                    <h5>Trucks Heading Out</h5>-->
+<!--                    <p class="text-justify">Trucks should be on tracks</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="carousel-item">-->
+<!--                <img class="d-block w-100" src="img/broadcast/shipping.jpg" alt="Second slide">-->
+<!--                <div class="carousel-caption d-none d-md-block">-->
+<!--                    <h5>Shipping Moving Faster than Usual</h5>-->
+<!--                    <p class="text-justify">We have to get going</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="carousel-item">-->
+<!--                <img class="d-block w-100" src="img/broadcast/containers.jpg" alt="Third slide">-->
+<!--                <div class="carousel-caption d-none d-md-block">-->
+<!--                    <h5>Stored amount of Parcels</h5>-->
+<!--                    <p class="text-justify">No one want their parcels delayed</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">-->
+<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--            <span class="sr-only">Previous</span>-->
+<!--        </a>-->
+<!--        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">-->
+<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--            <span class="sr-only">Next</span>-->
+<!--        </a>-->
     </div>
     <!--Extra Content-->
     <div class="container-fluid bg-light">
