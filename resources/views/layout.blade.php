@@ -61,7 +61,7 @@
                         <li class="nav-item px-2 dropdown" >
                             <h5 class="font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/services/hms"><h5 class="font-weight-bold">HMM (Hyundai Merchant Marine)</h5></a>
+                                <a class="dropdown-item" href="/services/hmm"><h5 class="font-weight-bold">HMM (Hyundai Merchant Marine)</h5></a>
                                 <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Perma Shipping Line</h5></a>
                                 <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">EUKOR Car Carrier Inc</h5></a>
                                 <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Hyundai Glovis</h5></a>
@@ -193,8 +193,11 @@
         </div>
     </div>
 </div>
-
+<!--GSAP-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<!--CUSTOM-->
 <script src="{{ url('/') }}/js/app.js"></script>
+<script src="{{ url('/') }}/js/main.js"></script>
 </body>
 </html>
 

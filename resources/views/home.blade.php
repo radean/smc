@@ -6,16 +6,38 @@
     <div class="full-screen" data-ride="carousel">
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="truck" role="tabpanel" aria-labelledby="truck-tab">
-                <img class="d-block w-100" src="img/broadcast/trucks-cover.jpg" alt="First slide">
+                <div class="d-block main-bg-truck text-center">
+                    <div class="d-none d-md-block mx-auto bg-caption">
+                        <h5 id="heading" class="big-headings">Trucks </h5>
+                        <p id="subHeading" class="big-captions">Captions</p>
+                    </div>
+                </div>
+<!--                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">-->
+<!--                <h3 class="mx-auto " >Heading</h3>-->
             </div>
             <div class="tab-pane fade" id="air" role="tabpanel" aria-labelledby="air-tab">
-                <img class="d-block w-100" src="img/broadcast/shipping.jpg" alt="Second slide">
+                <div class="d-block main-bg-air text-center">
+                    <div class="d-none d-md-block mx-auto bg-caption">
+                        <h5 id="heading" class="big-headings">Planes</h5>
+                        <p id="subHeading" class="big-captions">Captions</p>
+                    </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="ocean" role="tabpanel" aria-labelledby="ocean-tab">
-                <img class="d-block w-100" src="img/broadcast/containers.jpg" alt="Third slide">
+                <div class="d-block main-bg-ocean text-center">
+                    <div class="d-none d-md-block mx-auto bg-caption">
+                        <h5 id="heading" class="big-headings">Containers </h5>
+                        <p id="subHeading" class="big-captions">Captions</p>
+                    </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="warehouse" role="tabpanel" aria-labelledby="warehouse-tab">
-                <img class="d-block w-100" src="img/broadcast/trucks.jpg" alt="First slide">
+                <div class="d-block main-bg-warehouse text-center">
+                    <div class="d-none d-md-block mx-auto bg-caption">
+                        <h5 id="heading" class="big-headings">Warehouses </h5>
+                        <p id="subHeading" class="big-captions">Captions</p>
+                    </div>
+                </div>
             </div>
             <ul class="nav nav-tabs bg-transparent nav-justified text-dark" id="myTab" role="tablist">
                 <li class="nav-item active">
