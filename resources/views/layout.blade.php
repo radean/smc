@@ -52,23 +52,23 @@
             <!--HR-->
             <hr class="navigation">
             <!--Secondary NavBar-->
-            <nav class="navbar navbar-expand-md text-white bg-transparent px-5">
+            <nav class="navbar navbar-expand-md text-white font-weight-light bg-transparent px-5">
                 <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item px-2">
-                            <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-bold">About</h5> </a>
+                            <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-light">About</h5> </a>
                         </li>
                         <li class="nav-item px-2 dropdown" >
-                            <h5 class="font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
+                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/services/hmm"><h5 class="font-weight-bold">HMM (Hyundai Merchant Marine)</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Perma Shipping Line</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">EUKOR Car Carrier Inc</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-bold">Hyundai Glovis</h5></a>
+                                <a class="dropdown-item" href="/services/hmm"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
+                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
                             </div>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-bold">Shipping</h5></a>
+                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-light">Shipping</h5></a>
                         </li>
                     </ul>
                 </div>
