@@ -35,7 +35,10 @@
     background: linear-gradient(black ,transparent ,transparent), url("/img/bg/hmmGlobal.jpg");
     background-size: cover;
 }
-
+.permaGlobalBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/bg/permaMap.jpg");
+    background-size: cover;
+}
 
 .bg-cream {
     background: rgb(240, 243, 231);
@@ -127,6 +130,9 @@ html, body {
     height: 100vh;
     margin: 0;
     cursor: default;
+}
+h5 {
+    line-height: 28px;
 }
 
 .full-height {

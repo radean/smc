@@ -49,7 +49,7 @@ Route::get('/services', 'MainController@services');
 Route::get('/services/hmm', 'MainController@hmm');
 
 
-Route::get("/services/psl", "MainController@psl");
+Route::get("/services/perma", "MainController@perma");
 
 
 Route::get('/services/PLSS', "MaionController@plss");

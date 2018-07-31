@@ -22,6 +22,10 @@ class MainController extends Controller
     {
         return view('services.hmm');
     }
+    public function perma()
+    {
+        return view('services.perma');
+    }
 
     //Redirect To Contact page
     public function contact()

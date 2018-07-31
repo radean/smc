@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-sm-12 bgs hmmBG half-height p-5">
                 <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Hyundai Merchant Marine CO., LTD.</h1>
+                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Perma Shipping Line.</h1>
                 </div>
             </div>
         </div>
@@ -23,66 +23,27 @@
                 </div>
                 <div class="col-sm patternized">
                     <h5 class="text-justify pl-5 p-5">
-                        Our professionally skilled and experienced staffs
-                        provide customers with world-class transportation
-                        services via more than 100 state-of-art vessels and
-                        various logistics facilities that span a worldwide
-                        network of ports together with industry-leading
-                        IT systems.
+                        Perma Shipping Line has been on the forefront of providing service into niche markets such as Um Qasr in Iraq.
+                        With its dedicated office in Iraq, Perma Shipping Line has been able to provide inland destinations for its customers.
                     </h5>
                 </div>
             </div>
         </div>
         <div class="container p-5">
-            <!--Text-->
-            <!--HMM Vessels Services-->
-            <div class="row mt-5">
-                <div class="col-sm-4 text-center">
-                    <h2>
-                        <span class="font-weight-bold"> HMM </span>  provides many types of
-                        <span class="font-weight-bold"> shipping </span> services with various vessels.
-                    </h2>
-                </div>
-                <div class="col-sm-8">
-                    <h5 class="text-justify">
-                        Since launching our first service with three VLCCs
-                        (Very Large Crude Carriers) in 1976, HMM has
-                        substantially expanded into the world-class integrated
-                        logistics service provider by adding various types of
-                        vessels – container ships, bulk carriers, trampers,
-                        heavy lifts, and special product carriers – hence
-                        sharpening the competitive edge. As a result, HMM
-                        has gained a diverse business portfolio and structure
-                        that can yield stable revenue despite the market
-                        change in certain fields of the shipping industry.
-                    </h5> <br>
-                </div>
-            </div>
             <!--Pictured-Text-->
             <!--HMM World top Carriers-->
             <div class="row mt-5">
                 <div class="col-sm-8">
-                    <img src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">
+                    <img src="{{ url('/') }}/img/bg/permaSingapore.jpg" width="100%" height="100%" class="d-inline-block" alt="">
                 </div>
                 <div class="col-sm-4 text-center">
                     <h2>
-                        <span class="font-weight-bold"> HMM </span> is one of the world’s top <span class="font-weight-bold"> ocean </span> carriers
+                        <span class="font-weight-bold"> About </span> Perma Shipping.
                     </h2>
                     <hr class="m-5">
                     <h5 class="text-justify">
-                        HMM has a vast global network of 4 overseas chief
-                        offices, supported by 3 regional headquarters,
-                        23 subsidiaries, supported by three head offices,zuk
-                        58 branch offices, 8 overseas offices, and 3 container
-                        terminals around the world. It has the reputation as
-                        a world-class integrated logistics company due to its
-                        vast global network, the highly skilled vessel
-                        operations and accurate market forecast by most
-                        qualified professional employees with vast shipping
-                        experiences together with advanced global IT system
-                        network. Backed by these competencies, HMM is
-                        leading the global shipping markets, where cross-
-                        border competition intensifies each day.
+                        Perma Shipping Line, is a Singapore registered shipping company, began life in 2000 as a small container operator in the Middle East.
+                        The company grew steadily within a short span of time and has developed itself into a sizable container and logistics company operating a large fleet of containers, focusing on Middle East, Indian Sub Continent, South East Asia and very recently forays into China.
                     </h5> <br>
                 </div>
             </div>
@@ -90,27 +51,19 @@
             <!--HMM World top Carriers-->
             <div class="row mt-5">
                 <div class="col-sm-4 text-center">
-                    <h2>
-                        <span class="font-weight-bold"> HMM </span> serves as a main artery of the <span class="font-weight-bold"> national economy </span> .
-                    </h2>
-                    <hr class="m-5">
                     <h5 class="text-justify">
-                        HMM transports strategic national commodities
-                        such as crude oil, coal/iron ore, and various special
-                        cargoes as well as import/export goods. In doing so,
-                        HMM plays a pivotal role in Korea’s economy,
-                        generating more than USD 4 billion annually.
+                        Perma Shipping Line has been on the forefront of providing service into niche markets such as Um Qasr in Iraq. With its dedicated office in Iraq, Perma Shipping Line has been able to provide inland destinations for its customers.
                     </h5> <br>
                 </div>
                 <div class="col-sm-8">
-                    <img src="{{ url('/') }}/img/bg/hmmEconomy.jpg" width="100%" height="100%" class="d-inline-block" alt="">
+                    <img src="{{ url('/') }}/img/bg/permaPort.jpg" width="100%" height="100%" class="d-inline-block" alt="">
                 </div>
             </div>
             <!--Pictured-Text-->
             <!--HMM Global Service Network-->
-            <div class="row mt-5 hmmGlobalBG text-white p-5">
+            <div class="row mt-5 permaGlobalBG text-white p-5">
                 <div class="col-sm-4 text-center">
-                    <img src="{{ url('/') }}/img/logos/hmm.png" alt="">
+                    <img src="{{ url('/') }}/img/logos/perma.png" alt="">
                 </div>
                 <div class="col-sm-8">
                     <h2>
@@ -118,12 +71,8 @@
                         enables <span class="font-weight-bold"> HMM </span> to collaborate more strategically with the world’s major shipping companies.
                     </h2> <br>
                     <h5 class="text-justify">
-                        Since its inception in 1976, Hyundai Merchant Marine (HMM) has continuously endeavored to become a premier global shipping and logistics company.
-                        HMM is currently one of the top five Trans-Pacific carriers and one of the top 10 carriers in the global shipping industry with a varied sized fleet for Trans-Pacific, Asia-Europe, Trans-Atlantic and Inter-Asia trade.
-                        Our legacy of customer service excellence proudly contin-
-                        ues. For example, HMM has expanded container service to niche markets in South America, Australia and Russia.
-                        Other significant accomplishments include: expansion of inland live reefer service, improved Regional Customer Service Center (RCSC) service, service, and upgraded electronic service on the Mobile devices - sailing schedules,
-                        rate requests, online booking, cargo tracking & tracing, and Internet B/L service, etc.
+                        Today the company has over 20 offices in Southeast Asia, Indian Sub Continent and the Middle East to ensure a very dedicated and personal service to its customers. The logistics arm of the company, Perma Logistics specializes in marine logistics, air freight as well as land based activities and it is very active in CIS countries.
+                        At Perma, we constantly strive to broaden and expand our operations and services to provide a better and more reliable business solutions to our customers
                     </h5> <br>
                 </div>
             </div>

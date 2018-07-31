@@ -261,6 +261,7 @@
                     </a>
                 </div>
                 <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/002.jpg');">
+                    <a href="services/perma">
                     <div class="mx-auto text-white text-center" style="width: fit-content;">
                         <img class="blockLogo" src="{{ url('/') }}/img/logos/perma.png" alt="">
                         <h6>Shipping simplified</h6>
@@ -275,6 +276,7 @@
                             destinations for its customers.
                         </p>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="row">
