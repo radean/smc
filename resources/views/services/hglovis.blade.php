@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-sm-12 bgs hmmBG half-height p-5">
                 <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Perma Shipping Line.</h1>
+                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Hyundai Glovis.</h1>
                 </div>
             </div>
         </div>
@@ -31,33 +31,33 @@
             <!--Perma About-->
             <div class="row mt-5">
                 <div class="col-sm-8">
-                    <img class="shadow" src="{{ url('/') }}/img/bg/permaSingapore.jpg" width="100%" height="100%" class="d-inline-block" alt="">
+                    <img class="shadow" src="{{ url('/') }}/img/bg/eukorHauler.jpg" width="100%" height="100%" class="d-inline-block" alt="">
                 </div>
                 <div class="col-sm-4 text-center">
                     <h2>
-                        <span class="font-weight-bold"> About </span> Perma Shipping.
+                        <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.
                     </h2>
                     <hr class="m-5">
                     <h5 class="text-justify">
-                        Perma Shipping Line, is a Singapore registered shipping company, began life in 2000 as a small container operator in the Middle East.
-                        The company grew steadily within a short span of time and has developed itself into a sizable container and logistics company operating a large fleet of containers, focusing on Middle East, Indian Sub Continent, South East Asia and very recently forays into China.
+                        By reinforcing global key capacities through “selection and concentration”, we will provide differentiated value in logistics and distribution.
+                        We will actively secure a new momentum for sustainable growth and reinforce corporate social responsibility.
+                        To create customer value, the sense of challenge and innovation at Hyundai Glovis will continue.
                     </h5> <br>
                 </div>
             </div>
             <!--Pictured-Text-->
             <!--Perma Global Service Network-->
-            <div class="row mt-5 shadow permaGlobalBG text-white p-5">
+            <div class="row mt-5 shadow eukorGlobalBG text-white p-5">
                 <div class="col-sm-4 text-center">
-                    <img src="{{ url('/') }}/img/logos/perma.png" alt="">
+                    <img src="{{ url('/') }}/img/logos/eukor.png" alt="">
                 </div>
                 <div class="col-sm-8">
                     <h2>
-                        <span class="font-weight-bold"> we </span> are constantly <span class="font-weight-bold"> striving </span> to
-                        <span class="font-weight-bold"> expanding </span>  .
+                        <span class="font-weight-bold"> Worldwide </span> Network
                     </h2> <br>
                     <h5 class="text-justify">
-                        Today the company has over 20 offices in Southeast Asia, Indian Sub Continent and the Middle East to ensure a very dedicated and personal service to its customers. The logistics arm of the company, Perma Logistics specializes in marine logistics, air freight as well as land based activities and it is very active in CIS countries.
-                        At Perma, we constantly strive to broaden and expand our operations and services to provide a better and more reliable business solutions to our customers
+                        EUKOR operates a large and modern fleet of specialised Pure Car and Truck Carriers (PCTC),
+                        embracing some of the largest vessels in the world - annually transporting around four million car equivalent units worldwide through our global network of offices and agents.
                     </h5> <br>
                 </div>
             </div>

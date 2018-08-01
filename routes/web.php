@@ -15,8 +15,6 @@
 //===============
 Route::get('/', function () {
 
-    $name = "Raheel Shaikh";
-
     $tasks = App\Task::all();
 
     return view('home', compact('name', 'tasks'));
@@ -41,20 +39,21 @@ Route::get('/about', 'MainController@index');
 
 //  Services Page
 //===============
-Route::get('/services', 'MainController@services');
+Route::get('/services', 'MainController@services')->name('service');
 //
 // Children Page
 //=============
 //H  M  S
-Route::get('/services/hmm', 'MainController@hmm');
+Route::get('/services/hmm', 'MainController@hmm')->name('hmm');
 
 
-Route::get("/services/perma", "MainController@perma");
+Route::get("/services/perma", "MainController@perma")->name('perma');
 
 
-Route::get('/services/PLSS', "MaionController@plss");
+Route::get('/services/eukor', "MainController@eukor")->name('eukor');
 
 
+Route::get('/services/hglovis', "MainController@hglovis")->name('hglovis');
 
 
 //  Contact Page

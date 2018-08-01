@@ -61,10 +61,10 @@
                         <li class="nav-item px-2 dropdown" >
                             <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/services/hmm"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
-                                <a class="dropdown-item" href="/services"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
+                                <a class="dropdown-item" href="{{ route('hmm') }}"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
+                                <a class="dropdown-item" href="{{ route('perma') }}"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
+                                <a class="dropdown-item" href="{{ route('eukor') }}"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
+                                <a class="dropdown-item" href="{{ route('hglovis') }}"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
                             </div>
                         </li>
                         <li class="nav-item px-2">
@@ -120,6 +120,7 @@
                 <h4 class="font-weight-bold">Get in touch</h4>
                 <a class="text-dark " href="#">We will contact you soon.</a>
                 <form>
+                    @csrf
                     <div class="form-group">
                         <input name="contactFormEmail" type="email" class="form-control form-control-sm" id="emailAddress" aria-describedby="emailHelp" placeholder="Email*">
                     </div>
@@ -181,6 +182,7 @@
         <div class="col-sm p-5">
             <h4 class="font-weight-bold"> BE UP TO DATE:</h4> <br>
             <form action="">
+                @csrf
                 <div class="input-group mb-3">
                     <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
                     <div class="input-group-append">

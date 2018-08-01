@@ -26,6 +26,15 @@ class MainController extends Controller
     {
         return view('services.perma');
     }
+    public function eukor()
+    {
+        return view('services.eukor');
+    }
+    public function hglovis()
+    {
+        return view('services.hglovis');
+    }
+
 
     //Redirect To Contact page
     public function contact()

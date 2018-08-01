@@ -2,9 +2,16 @@
 
 
 @section('content')
+    <!--Page BGS Image-->
+    <div class="row">
+        <div class="col-sm-12 bgs hmmBG half-height p-5">
+            <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+                <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Saudi Maritime Company</h1>
+            </div>
+        </div>
+    </div>
     <!--About-->
     <div class="container">
-        <h1>About Content</h1>
         <!--About Heading-->
         <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
             <h2>About <span class="font-weight-bold"> SMC</span></h2>
