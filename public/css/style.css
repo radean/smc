@@ -28,23 +28,32 @@
     color: #131313;
     text-shadow: 0px 0px 20px black
 }
+.bgs {
+    background-size: 100%;
+    background-origin: center;
+}
 
 .hmmBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/hmm.jpg");
-    background-size: cover;
+}
+.servicesBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/services.jpg");
+}
+.permaBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/perma.jpg");
+}
+.eukorBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/eukor.jpg");
 }
 .hmmGlobalBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/bg/hmmGlobal.jpg");
-    background-size: cover;
 }
 .permaGlobalBG {
     background: url("/img/bg/permaMap.jpg");
-    background-size: cover;
     text-shadow: 0px 0px 6px black;
 }
 .eukorGlobalBG {
     background: url("/img/bg/eukorWorldwide.jpg");
-    background-size: cover;
     background-position: center;
     text-shadow: 0px 0px 6px black;
 }

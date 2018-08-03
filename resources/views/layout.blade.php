@@ -67,8 +67,8 @@
                                 <a class="dropdown-item" href="{{ route('hglovis') }}"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
                             </div>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><h5 class="font-weight-light">Shipping</h5></a>
+                        <li class="nav-item ">
+                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><button type="button" class="btn btn-sm btn-primary">Get a quote</button></a>
                         </li>
                     </ul>
                 </div>
@@ -85,7 +85,7 @@
     <div class="row border border-bottom-0 px-4">
         <div class="col-sm-6 p-5">
             <a class="navbar-brand " href="/">
-                <img src="{{ url('/') }}/img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
+                <img src="{{ url('/') }}/img/logoB.png" width="100%" height="100%" class="d-inline-block" alt="">
             </a>
         </div>
         <div class="col-sm-3 p-5">
