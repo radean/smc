@@ -12,27 +12,24 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm p-5 baseColor text-center">
-                    <h1 class="font-weight-bold big-headings-Style text-justify">
-                        Perma Shipping Line has been on the forefront of providing service into niche markets such as Um Qasr in Iraq.
-                    </h1>
-                </div>
-                <div class="col-sm patternized">
-                    <h5 class="text-justify pl-5 p-5">
-                        With its dedicated office in Iraq, Perma Shipping Line has been able to provide inland destinations for its customers.
-                    </h5>
-                </div>
-            </div>
-        </div>
+<!--        <div class="container-fluid">-->
+<!--            <div class="row">-->
+<!--                <div class="col-sm p-5 baseColor text-center">-->
+<!--                    <h1 class="font-weight-bold big-headings-Style text-justify">-->
+<!--                        Perma Shipping Line has been on the forefront of providing service into niche markets such as Um Qasr in Iraq.-->
+<!--                    </h1>-->
+<!--                </div>-->
+<!--                <div class="col-sm patternized">-->
+<!--                    <h5 class="text-justify pl-5 p-5">-->
+<!--                        With its dedicated office in Iraq, Perma Shipping Line has been able to provide inland destinations for its customers.-->
+<!--                    </h5>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="container p-5">
             <!--Pictured-Text-->
             <!--Eukor About-->
             <div class="row mt-5">
-                <div class="col-sm-8">
-                    <img class="shadow" src="{{ url('/') }}/img/bg/eukorHauler.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
                 <div class="col-sm-4 text-center">
                     <h2>
                         <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.
@@ -42,6 +39,9 @@
                         We deliver tailor-made ocean transport and logistics services of the highest quality to our customers in the field of auto, rolling equipment and breakbulk.
                         One of our key business is the export of ’Hyundai and Kia Motors’ vehicles from their plants in Korea. We also serve most of the other global automotive leaders.
                     </h5> <br>
+                </div>
+                <div class="col-sm-8">
+                    <img class="shadow" src="{{ url('/') }}/img/bg/eukorHauler.jpg" width="100%" height="100%" class="d-inline-block" alt="">
                 </div>
             </div>
             <!--Pictured-Text-->
@@ -63,6 +63,9 @@
             <!--Pictured-Text-->
             <!--Eukor Quality Service-->
             <div class="row mt-5">
+                <div class="col-sm-8">
+                    <img class="shadow" src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">
+                </div>
                 <div class="col-sm-4 text-center">
                     <h2>
                         <span class="font-weight-bold">Global</span> Network
@@ -76,9 +79,6 @@
                         and operates a global inland distribution network, 77 technical service and processing centers, and 13 marine terminals.
 
                     </h5> <br>
-                </div>
-                <div class="col-sm-8">
-                    <img class="shadow" src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">
                 </div>
             </div>
             <!--Pictured-Text-->
