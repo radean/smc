@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <!-- Styles -->
     <!--BootStrap-->
-    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
-<!--    <link rel="stylesheet" href="{{ url('/') }}/css/app.css ">-->
+<!--    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">-->
+    <link rel="stylesheet" href="{{ url('/') }}/css/app.css ">
     <!--Custom-->
-    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
-<!--    <link rel="stylesheet" href="{{ url('/') }}/css/style.css ">-->
+<!--    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">-->
+    <link rel="stylesheet" href="{{ url('/') }}/css/style.css ">
 </head>
 
 <body >
@@ -201,10 +201,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 <!--CUSTOM-->
 
-<!--<script src="{{ url('/') }}/js/app.js"></script>-->
-<!--<script src="{{ url('/') }}/js/main.js"></script>-->
-<script src="{{ secure_asset('css/js/app.js') }}"></script>
-<script src="{{ secure_asset('js/app.js') }}"></script>
+<script src="{{ url('/') }}/js/app.js"></script>
+<script src="{{ url('/') }}/js/main.js"></script>
+<!--<script src="{{ secure_asset('css/js/app.js') }}"></script>-->
+<!--<script src="{{ secure_asset('js/app.js') }}"></script>-->
 </body>
 </html>
 
