@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <!-- Styles -->
     <!--BootStrap-->
-    <link rel="stylesheet" href="http://localhost:8000/css/app.css">
+    <link rel="stylesheet" href="{{ url('/') }}/css/app.css">
     <!--Custom-->
-    <link rel="stylesheet" href="http://localhost:8000/css/style.css">
+    <link rel="stylesheet" href="{{ url('/') }}/css/style.css">
 </head>
 
 <body >
