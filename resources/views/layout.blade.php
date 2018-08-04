@@ -177,7 +177,7 @@
             <a class="text-dark m-2" href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>
             <a class="text-dark m-2" href="#"><i class="fab fa-youtube fa-2x"></i></a>
             <br>
-            <h6 class="mt-5">&copy; 2018 SMC (Saudi Maritime Company) / All rights reserved / version 0.12 Beta</h6>
+            <h6 class="mt-5">&copy; 2018 SMC (Saudi Maritime Company) / All rights reserved / version 0.14 Beta</h6>
         </div>
         <div class="col-sm p-5">
             <h4 class="font-weight-bold"> BE UP TO DATE:</h4> <br>
