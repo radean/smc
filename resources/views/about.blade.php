@@ -12,6 +12,7 @@
     </div>
     <!--About-->
     <div class="container">
+
         <!--About Heading-->
         <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
             <h2>About <span class="font-weight-bold"> SMC</span></h2>
@@ -34,5 +35,6 @@
             offices at Jeddah and Riyadh. SMC is a renowned name in the shipping sphere locally and
             globally.
         </p>
+
     </div>
 @endsection

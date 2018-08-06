@@ -34,6 +34,14 @@ class MainController extends Controller
     {
         return view('services.hglovis');
     }
+    public function transportation()
+    {
+        return view('services.transportation');
+    }
+    public function logistics()
+    {
+        return view('services.logistics');
+    }
 
 
     //Redirect To Contact page

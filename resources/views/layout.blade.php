@@ -37,9 +37,6 @@
 
                 <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Blogs & News</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link px-3" href="#">+966-13-813-8500</a>
                         </li>
@@ -61,17 +58,24 @@
                             <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-light">About</h5> </a>
                         </li>
                         <li class="nav-item px-2 dropdown" >
-                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Services</a></h5>
+                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Shipping</a></h5>
                             <div class="dropdown-menu">
+
                                 <a class="dropdown-item" href="{{ route('hmm') }}"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
                                 <a class="dropdown-item" href="{{ route('perma') }}"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
                                 <a class="dropdown-item" href="{{ route('eukor') }}"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
                                 <a class="dropdown-item" href="{{ route('hglovis') }}"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
                             </div>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><button type="button" class="btn btn-sm btn-primary">Get a quote</button></a>
+                        <li class="nav-item px-2">
+                            <a class="nav-link {{ Request::path() == 'transportation' ? 'active' : '' }}" href="{{ route('transportation') }}"> <h5 class="font-weight-light">Transportation</h5> </a>
                         </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link {{ Request::path() == 'logistics' ? 'active' : '' }}" href="{{ route('logistics') }}"> <h5 class="font-weight-light">Logistics</h5> </a>
+                        </li>
+<!--                        <li class="nav-item ">-->
+<!--                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><button type="button" class="btn btn-sm btn-primary">Get a quote</button></a>-->
+<!--                        </li>-->
                     </ul>
                 </div>
             </nav>
@@ -197,12 +201,18 @@
         </div>
     </div>
 </div>
+<!--Jquery-->
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 <!--GSAP-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 <!--CUSTOM-->
 
 <script src="{{ url('/') }}/js/app.js"></script>
 <script src="{{ url('/') }}/js/main.js"></script>
+
 <!--<script src="{{ secure_asset('css/js/app.js') }}"></script>-->
 <!--<script src="{{ secure_asset('js/app.js') }}"></script>-->
 </body>

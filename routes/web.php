@@ -56,6 +56,12 @@ Route::get('/services/eukor', "MainController@eukor")->name('eukor');
 Route::get('/services/hglovis', "MainController@hglovis")->name('hglovis');
 
 
+Route::get('/services/transportation', "MainController@transportation")->name('transportation');
+
+
+Route::get('/services/logistics', "MainController@logistics")->name('logistics');
+
+
 //  Contact Page
 //===============
 Route::get('/contact', 'MainController@contact');

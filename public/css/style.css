@@ -30,11 +30,16 @@
 }
 .bgs {
     background-size: 100%;
-    background-origin: center;
 }
 
 .hmmBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/hmm.jpg");
+}
+.transportationBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/transportation.jpg");
+}
+.logisticsBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/logistics.jpg");
 }
 .servicesBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/services.jpg");
@@ -208,4 +213,13 @@ h5 {
 
 .m-b-md {
     margin-bottom: 30px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
 }
