@@ -8,30 +8,24 @@
     <div class="row">
         <div class="col-sm-12 bgs hmmBG half-height p-5">
             <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-                <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Saudi Maritime Company</h1>
+                <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Contact us</h1>
             </div>
         </div>
     </div>
     <!--About-->
-    <div class="container">
-
-        <!--About Heading-->
-        <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-            <h2>Contact <span class="font-weight-bold"> US</span></h2>
-            <hr class="mx-5">
-        </div>
+    <div class="container p-5">
         <section class="contactus-one" id="contactus"><!-- Section id-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.1435118487834!2d73.09695287259558!3d23.742261243014283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395d97dd1a0a0f73%3A0x1c89ba6d8d4d240!2sBolundra%2C+Gujarat+383421!5e0!3m2!1sen!2sin!4v1500617103857" height="580" width="100%" ></iframe>
+                            <iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.1435118487834!2d73.09695287259558!3d23.742261243014283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395d97dd1a0a0f73%3A0x1c89ba6d8d4d240!2sBolundra%2C+Gujarat+383421!5e0!3m2!1sen!2sin!4v1500617103857" height="580" width="100%" ></iframe>
                         </div>
                     </div>
                     <div class=" col-md-5 col-sm-6">
                         <div class="contact-block">
                             <div class="dart-headingstyle-one dart-mb-20">  <!--Style 1-->
-                                <h2 class="dart-heading">Contact US</h2>
+                                <h2 class="dart-heading">Form</h2>
                             </div>
 
                             <div class="contact-form"><!-- contact form -->

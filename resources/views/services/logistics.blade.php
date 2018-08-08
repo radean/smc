@@ -24,11 +24,6 @@
             <!--Services Logistics-->
             <div class="row mt-5">
                 <div class="col-sm-12 text-center">
-                    <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/glovisLogistics.jpg" width="100%" alt="">-->
-                    <h2 class="mt-4">
-                        <span class="font-weight-bold">Logistics</span>
-                    </h2>
-                    <hr class="m-4">
                     <h5 class="text-justify">
                         Being part of ABSA Group, the Logistics infrastructure embraces purchasing, supplier management,
                         materials management, manufacturing, inventory management, warehousing, distribution, transport and customer service.Today Logistics,
