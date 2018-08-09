@@ -62,11 +62,11 @@
                 </div>
             </div>
             <!--Eplore Other Services Button-->
-            <div class="mx-auto p-5 text-dark" style="width: fit-content;">
-                <a href="{{ route('service') }}">
-                    <button type="button" class="btn btn-lg btn-outline-primary">Explore other services</button>
-                </a>
-            </div>
+<!--            <div class="mx-auto p-5 text-dark" style="width: fit-content;">-->
+<!--                <a href="{{ route('service') }}">-->
+<!--                    <button type="button" class="btn btn-lg btn-outline-primary">Explore other services</button>-->
+<!--                </a>-->
+<!--            </div>-->
         </div>
     </div>
 @endsection

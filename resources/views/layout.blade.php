@@ -36,16 +36,6 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="#">+966-13-813-8500</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline">
-                        <a href="/contact">
-                            <button class="btn btn-lg btn-outline-primary" type="button">Contact us</button>
-                        </a>
-                    </form>
                 </div>
             </nav>
             <!--HR-->
@@ -58,7 +48,7 @@
                             <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-light">About</h5> </a>
                         </li>
                         <li class="nav-item px-2 dropdown" >
-                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link dropdown-toggle">Shipping</a></h5>
+                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a href="{{ route('service') }}" class="nav-link dropdown-toggle">Services</a></h5>
                             <div class="dropdown-menu">
 
                                 <a class="dropdown-item" href="{{ route('hmm') }}"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
@@ -73,9 +63,9 @@
                         <li class="nav-item px-2">
                             <a class="nav-link {{ Request::path() == 'logistics' ? 'active' : '' }}" href="{{ route('logistics') }}"> <h5 class="font-weight-light">Logistics</h5> </a>
                         </li>
-<!--                        <li class="nav-item ">-->
-<!--                            <a class="nav-link {{ Request::path() == 'shipping' ? 'active' : '' }}" href="/shipping"><button type="button" class="btn btn-sm btn-primary">Get a quote</button></a>-->
-<!--                        </li>-->
+                        <li class="nav-item ">
+                            <a class="nav-link {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact"><button type="button" class="btn btn-sm btn-primary">Contact us</button></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -87,38 +77,6 @@
 
 <!--Footer-->
 <div class="container-fluid bg-light">
-    <!--Header-->
-    <div class="row border border-bottom-0 px-4">
-        <div class="col-sm-6 p-5">
-            <a class="navbar-brand " href="/">
-                <img src="{{ url('/') }}/img/logoB.png" width="100%" height="100%" class="d-inline-block" alt="">
-            </a>
-        </div>
-        <div class="col-sm-3 p-5">
-            <div class="row">
-                <div class="col-sm-4">
-                    <i class="fas fa-phone fa-4x secondary-text pt-2"></i>
-                </div>
-                <div class="col-sm-8">
-                    <h4>Call Center</h4>
-                    <h6>+966-13-813-8500</h6>
-                    <h6>+966-81-645-6453</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-5">
-            <div class="row">
-                <div class="col-sm-4">
-                    <i class="fas fa-calendar-alt fa-4x secondary-text pt-2"></i>
-                </div>
-                <div class="col-sm-8">
-                    <h4>Timing</h4>
-                    <h6>Sun - Thursday</h6>
-                    <h6>08:00 - 17:00</h6>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--Body-->
     <div class="container-fluid">
         <div class="row border-top px-3">
@@ -173,33 +131,65 @@
             </div>
         </div>
     </div>
-    <!--Footer-->
-    <div class="row secondaryBG px-4">
-        <div class="col-sm p-5">
-            <h4 class="font-weight-bold"> Delivered on time with no hassle.</h4> <br>
-            <a class="text-dark m-2" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-            <a class="text-dark m-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a class="text-dark m-2" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <a class="text-dark m-2" href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>
-            <a class="text-dark m-2" href="#"><i class="fab fa-youtube fa-2x"></i></a>
-            <br>
-            <h6 class="mt-5">&copy; 2018 SMC (Saudi Maritime Company) / All rights reserved / version 0.16 Beta</h6>
+    <!--Header-->
+    <div class="row border border-bottom-0 px-4">
+        <div class="col-sm-6 p-5">
+            <a class="navbar-brand " href="/">
+                <img src="{{ url('/') }}/img/logoB.png" width="100%" height="100%" class="d-inline-block" alt="">
+            </a>
         </div>
-        <div class="col-sm p-5">
-            <h4 class="font-weight-bold"> BE UP TO DATE:</h4> <br>
-            <form action="">
-                @csrf
-                <div class="input-group mb-3">
-                    <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-signup">Sign me up!</button>
-                    </div>
+        <div class="col-sm-3 p-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fas fa-phone fa-4x secondary-text pt-2"></i>
                 </div>
-            </form>
-            <br>
-            <h6 class="mt-0"><a href="#"> About </a>| <a href="#">Services </a> | <a href="#">Term & Conditions </a> | <a href="#">Privacy Policy </a> </h6>
+                <div class="col-sm-8">
+                    <h4>Call Center</h4>
+                    <h6>+966-13-813-8500</h6>
+                    <h6>+966-81-645-6453</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 p-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fas fa-calendar-alt fa-4x secondary-text pt-2"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h4>Timing</h4>
+                    <h6>Sun - Thursday</h6>
+                    <h6>08:00 - 17:00</h6>
+                </div>
+            </div>
         </div>
     </div>
+    <!--Footer-->
+<!--    <div class="row secondaryBG px-4">-->
+<!--        <div class="col-sm p-5">-->
+<!--            <h4 class="font-weight-bold"> Delivered on time with no hassle.</h4> <br>-->
+<!--            <a class="text-dark m-2" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>-->
+<!--            <a class="text-dark m-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>-->
+<!--            <a class="text-dark m-2" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>-->
+<!--            <a class="text-dark m-2" href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>-->
+<!--            <a class="text-dark m-2" href="#"><i class="fab fa-youtube fa-2x"></i></a>-->
+<!--            <br>-->
+<!--            <h6 class="mt-5">&copy; 2018 SMC (Saudi Maritime Company) / All rights reserved / version 0.16 Beta</h6>-->
+<!--        </div>-->
+<!--        <div class="col-sm p-5">-->
+<!--            <h4 class="font-weight-bold"> BE UP TO DATE:</h4> <br>-->
+<!--            <form action="">-->
+<!--                @csrf-->
+<!--                <div class="input-group mb-3">-->
+<!--                    <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">-->
+<!--                    <div class="input-group-append">-->
+<!--                        <button class="btn btn-outline-secondary" type="button" id="button-signup">Sign me up!</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--            <br>-->
+<!--            <h6 class="mt-0"><a href="#"> About </a>| <a href="#">Services </a> | <a href="#">Term & Conditions </a> | <a href="#">Privacy Policy </a> </h6>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 <!--Jquery-->
 <script
