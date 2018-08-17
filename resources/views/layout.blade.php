@@ -24,7 +24,7 @@
 <!--Main Navigation Bar-->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm position-absolute " style="z-index: 10">
+        <div class="col-sm position-absolute" style="z-index: 10">
             <nav class="navbar navbar-expand-md text-white bg-transparent font-weight-light px-5 font-weight-bold">
                 <a class="navbar-brand px-5" href="/">
                     <img src="{{ url('/') }}/img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
@@ -43,14 +43,16 @@
             <!--Secondary NavBar-->
             <nav class="navbar navbar-expand-md text-white font-weight-light bg-transparent px-5">
                 <div class="collapse navbar-collapse mr-auto px-5" id="navbarsExampleDefault">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft>
                         <li class="nav-item px-2">
                             <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-light">About</h5> </a>
                         </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="{{ route('service') }}"> <h5 class="font-weight-light">Services</h5> </a>
+                        </li>
                         <li class="nav-item px-2 dropdown" >
-                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a href="{{ route('service') }}" class="nav-link dropdown-toggle">Services</a></h5>
+                            <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a href="{{ route('service') }}" class="nav-link dropdown-toggle">Shipping</a></h5>
                             <div class="dropdown-menu">
-
                                 <a class="dropdown-item" href="{{ route('hmm') }}"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
                                 <a class="dropdown-item" href="{{ route('perma') }}"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
                                 <a class="dropdown-item" href="{{ route('eukor') }}"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>

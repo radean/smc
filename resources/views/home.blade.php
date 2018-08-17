@@ -104,51 +104,51 @@
 <!--        </a>-->
     </div>
     <!--Extra Content-->
-    <div class="container-fluid bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 p-4">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <i class="fas fa-phone fa-4x secondary-text pt-2"></i>
-                        </div>
-                        <div class="col-sm-8">
-                            <h4>Call Center</h4>
-                            <h6>+966-13-813-8500</h6>
-                            <h6>+966-81-645-6453</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 p-4">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <i class="fas fa-map-marked-alt fa-4x secondary-text pt-2"></i>
-                        </div>
-                        <div class="col-sm-8">
-                            <h4>Locations</h4>
-                            <h6>Al-Barrak Tower, Najd Street, Dammam, Saudi Arabia</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 p-4 ">
-                    <h4 class="font-weight-bold">Let us help you</h4> <br>
-                    <form action="">
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" id="button-signup">contact me</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="container-fluid bg-light">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-sm-3 p-4">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-sm-4">-->
+<!--                            <i class="fas fa-phone fa-4x secondary-text pt-2"></i>-->
+<!--                        </div>-->
+<!--                        <div class="col-sm-8">-->
+<!--                            <h4>Call Center</h4>-->
+<!--                            <h6>+966-13-813-8500</h6>-->
+<!--                            <h6>+966-81-645-6453</h6>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-3 p-4">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-sm-4">-->
+<!--                            <i class="fas fa-map-marked-alt fa-4x secondary-text pt-2"></i>-->
+<!--                        </div>-->
+<!--                        <div class="col-sm-8">-->
+<!--                            <h4>Locations</h4>-->
+<!--                            <h6>Al-Barrak Tower, Najd Street, Dammam, Saudi Arabia</h6>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-6 p-4 ">-->
+<!--                    <h4 class="font-weight-bold">Let us help you</h4> <br>-->
+<!--                    <form action="">-->
+<!--                        <div class="input-group mb-3">-->
+<!--                            <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Email Address" aria-describedby="button-signup">-->
+<!--                            <div class="input-group-append">-->
+<!--                                <button class="btn btn-outline-secondary" type="button" id="button-signup">contact me</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!--About-->
     <div class="container">
         <!--About Heading-->
         <div class="mx-auto p-5 mt-2 text-dark" style="width: fit-content;">
-            <h2>About <span class="font-weight-bold"> SMC</span></h2>
+            <h2>About <span class="font-weight-bold"> SMC </span></h2>
             <hr class="mx-5">
         </div>
         <!--Text About-->
