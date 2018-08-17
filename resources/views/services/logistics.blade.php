@@ -8,22 +8,18 @@
         <div class="row">
             <div class="col-sm-12 bgs logisticsBG half-height p-5">
                 <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Logistics</h1>
+<!--                    <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Logistics</h1>-->
                 </div>
             </div>
         </div>
-        <div class="container p-5">
-            <!--Pictured-Text-->
-            <!--Glovis About-->
-            <div class="row mt-5">
-                <div class="col-sm-12">
-                    <img class="shadow" src="{{ url('/') }}/img/bg/logistics.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
-            </div>
+        <div class="container">
             <!--Pictured-Text-->
             <!--Services Logistics-->
             <div class="row mt-5">
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12">
+                    <h1>
+                        <span class="font-weight-bold"> LOGISTICS </span>
+                    </h1>
                     <h5 class="text-justify">
                         Being part of ABSA Group, the Logistics infrastructure embraces purchasing, supplier management,
                         materials management, manufacturing, inventory management, warehousing, distribution, transport and customer service.Today Logistics,
@@ -39,12 +35,6 @@
                         If you require through the line efficiency when it comes to logistics think Absa Logistic.
                     </h5> <br>
                 </div>
-            </div>
-            <!--Eplore Other Services Button-->
-            <div class="mx-auto p-5 text-dark" style="width: fit-content;">
-                <a href="{{ route('service') }}">
-                    <button type="button" class="btn btn-lg btn-outline-primary">Explore other services</button>
-                </a>
             </div>
         </div>
     </div>

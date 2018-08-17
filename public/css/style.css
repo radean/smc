@@ -36,7 +36,7 @@
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/hmm.jpg");
 }
 .transportationBG {
-    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/transportation.jpg");
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/trucks.jpg");
 }
 .logisticsBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/logistics.jpg");
@@ -52,6 +52,9 @@
 }
 .hmmGlobalBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/bg/hmmGlobal.jpg");
+}
+.glovisBG {
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/glovis.jpg");
 }
 .permaGlobalBG {
     background: url("/img/bg/permaMap.jpg");
@@ -108,7 +111,7 @@ a:hover {
 /*=========================*/
 /* M  A  I  N  C  A  R  O  U  S  E  L*/
 .main-bg-truck{
-    background-image: url("/img/broadcast/trucks.jpg");
+    background-image: url("/img/broadcast/collage.jpg");
     background-size: cover;
     height: 75vh;
 }

@@ -12,17 +12,15 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-sm quarter-height p-5 baseColor text-center">
-                    <h1 class="font-weight-bold big-headings-Style text-justify">
+                <div class="col-sm-12 quarter-height p-5 text-center">
+                    <h1 class="font-weight-bold text-justify">
                         HMM is a global integrated
                         logistics company providing
                         the best transport services.
                     </h1>
-                </div>
-                <div class="col-sm patternized">
-                    <h5 class="text-justify pl-5 p-5">
+                    <h5 class="text-justify">
                         Our professionally skilled and experienced staffs
                         provide customers with world-class transportation
                         services via more than 100 state-of-art vessels and
@@ -61,14 +59,14 @@
             <!--Pictured-Text-->
             <!--HMM World top Carriers-->
             <div class="row mt-5">
-                <div class="col-sm-8">
-                    <img src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
-                <div class="col-sm-4 text-center">
+<!--                <div class="col-sm-8">-->
+<!--                    <img src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
+<!--                </div>-->
+                <div class="col-sm-12">
                     <h2>
                         <span class="font-weight-bold"> HMM </span> is one of the world’s top <span class="font-weight-bold"> ocean </span> carriers
                     </h2>
-                    <hr class="m-5">
+<!--                    <hr class="m-5">-->
                     <h5 class="text-justify">
                         HMM has a vast global network of 4 overseas chief
                         offices, supported by 3 regional headquarters,
@@ -88,12 +86,12 @@
             </div>
             <!--Pictured-Text-->
             <!--HMM World top Carriers-->
-            <div class="row mt-5">
-                <div class="col-sm-4 text-center">
+            <div class="row">
+                <div class="col-sm-12">
                     <h2>
                         <span class="font-weight-bold"> HMM </span> serves as a main artery of the <span class="font-weight-bold"> national economy </span> .
                     </h2>
-                    <hr class="m-5">
+<!--                    <hr class="m-5">-->
                     <h5 class="text-justify">
                         HMM transports strategic national commodities
                         such as crude oil, coal/iron ore, and various special
@@ -102,13 +100,13 @@
                         generating more than USD 4 billion annually.
                     </h5> <br>
                 </div>
-                <div class="col-sm-8">
-                    <img src="{{ url('/') }}/img/bg/hmmEconomy.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
+<!--                <div class="col-sm-8">-->
+<!--                    <img src="{{ url('/') }}/img/bg/hmmEconomy.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
+<!--                </div>-->
             </div>
             <!--Pictured-Text-->
             <!--HMM Global Service Network-->
-            <div class="row mt-5 hmmGlobalBG text-white p-5">
+            <div class="row">
                 <div class="col-sm-4 text-center">
                     <img src="{{ url('/') }}/img/logos/hmm.png" alt="">
                 </div>
@@ -129,12 +127,18 @@
             </div>
             <!--Pictured-Text-->
             <!--HMM Future Expansion-->
-            <div class="row mt-5 pl-5 pr-5">
+            <div class="row mt-5">
                 <div class="col-sm-6">
-                    <img src="{{ url('/') }}/img/bg/hmmTeam.jpg" width="100%" height="100%" class="d-inline-block" alt="">
+                    <h5 class="text-justify">
+                        <span class="font-weight-bold"> In addition,</span>
+                        HMM will as always, continue to add new shipping routes and tonnage, resources to improve electronic services, and further streamline existing programs, services, etc.
+                        Ever striving to be the best, we plan to launch strategic initiatives to ensure even greater capacity, flexibility and quality for the new millennium.
+                        As with all HMM plans, these strategies are acutely focused on increasing customer service and satisfaction.
+                    </h5>
+
                 </div>
                 <div class="col-sm-6">
-                    <h5 class="text-justify p-5">
+                    <h5 class="text-justify">
                         <span class="font-weight-bold"> Future plans </span>
                         include the upsizing of our vessels, capacity increase in special container service (Jumbo and Reefer service), extension of service scope to new markets, and linking the finest internet shipping portal in the world providing complete and fully integrated customer services on the Web.
                     </h5>
@@ -142,32 +146,27 @@
             </div>
             <!--Pictured-Text-->
             <!--HMM Future Expansion-->
-            <div class="row pl-5 pr-5">
-                <div class="col-sm-6">
-                    <h5 class="text-justify p-5">
-                        <span class="font-weight-bold"> In addition,</span>
-                         HMM will as always, continue to add new shipping routes and tonnage, resources to improve electronic services, and further streamline existing programs, services, etc.
-                        Ever striving to be the best, we plan to launch strategic initiatives to ensure even greater capacity, flexibility and quality for the new millennium.
-                        As with all HMM plans, these strategies are acutely focused on increasing customer service and satisfaction.
-                    </h5>
-                </div>
-                <div class="col-sm-6">
-                    <img src="{{ url('/') }}/img/bg/hmmContainer.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
-            </div>
+<!--            <div class="row pl-5 pr-5">-->
+<!--                <div class="col-sm-6">-->
+<!--                    <img src="{{ url('/') }}/img/bg/hmmTeam.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
+<!--                </div>-->
+<!--                <div class="col-sm-6">-->
+<!--                    <img src="{{ url('/') }}/img/bg/hmmContainer.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
             <!--Pictured-Text-->
             <!--HMM G6 -->
-            <div class="row mt-5 p-5">
-                <div class="col-sm-4">
+            <div class="row mt-5">
+                <div class="col-sm-12">
                     <h5 class="text-justify">
                         With the ending of the <span class="font-weight-bold"> G6 consortium in April  </span> HMM formed in April 2017, a co-operation agreement with the 2M Alliance providing a competitive network covering services between Asia and West Coast USA, Asia and East Coast USA, Asia and North Europe, Asia and the Mediterranean, Europe/North America and North America/Europe trades.
                         <br>
                         In addition, HMM established a new extensive Intra-Asia network(including Korea – Vietnam/Japan) with the cooperation of two other Korean Carriers.
                     </h5> <br>
                 </div>
-                <div class="col-sm-8">
-                    <img src="{{ url('/') }}/img/bg/hmmShip.jpg" width="100%" height="100%" class="d-inline-block" alt="">
-                </div>
+<!--                <div class="col-sm-8">-->
+<!--                    <img src="{{ url('/') }}/img/bg/hmmShip.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
+<!--                </div>-->
             </div>
             <!--Text-->
             <!--HMM Vessels Services-->
