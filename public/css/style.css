@@ -111,7 +111,7 @@ a:hover {
 /*=========================*/
 /* M  A  I  N  C  A  R  O  U  S  E  L*/
 .main-bg-truck{
-    background-image: url("/img/broadcast/collage.jpg");
+    background-image: url("/img/broadcast/trucks.jpg");
     background-size: cover;
     height: 75vh;
 }
