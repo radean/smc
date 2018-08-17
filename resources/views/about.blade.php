@@ -15,11 +15,11 @@
 
         <!--About Heading-->
         <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
-            <h2>About <span class="font-weight-bold"> SMC</span></h2>
+            <h2>About <span class="font-weight-bold"> us</span></h2>
             <hr class="mx-5">
         </div>
         <!--Text About-->
-        <p>
+        <p class="text-justify">
             Saudi Maritime Company was established in early 1970’s by setting up an office in Dammam
             at Kingdom of Saudi Arabia by an enterprising Saudi Marine Captain, Ibrahim Barrak Al
             Omani, educated in United Kingdom and served as senior Ranking Officer on board reputed
@@ -28,7 +28,7 @@
             propels us forward, we reach our goals. Saudi Maritime became part of absco.com (ABSA
             Group) in 1988 serving Principals and Agents worldwide.
         </p>
-        <p>
+        <p class="text-justify">
             Saudi Maritime Company has grown enormously and gained the reputation of being one of
             the leading Shipping Agencies in this region handling Mega Containers &amp; RORO Carriers. The
             HQ of SAUDI MARITIME COMPANY is situated at Dammam and having well established
