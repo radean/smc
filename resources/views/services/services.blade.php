@@ -149,7 +149,7 @@
         </div>
         <div class="row">
             <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/005.jpg');">
-                <a href="{{ route('eukor') }}">
+                <a href="{{ route('transportation') }}">
                     <div class="mx-auto text-white text-center" style="width: fit-content;">
                         <img src="{{ url('/') }}/img/icons/truck-white.png" alt="">
 
@@ -168,7 +168,7 @@
                 </a>
             </div>
             <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/006.jpg');">
-                <a href="{{ route('hglovis') }}">
+                <a href="{{ route('logistics') }}">
                     <div class="mx-auto text-white text-center" style="width: fit-content;">
                         <img src="{{ url('/') }}/img/icons/warehouse-white.png" alt="">
                         <h6>Logistics</h6>
