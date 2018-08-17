@@ -14,7 +14,7 @@
     <div class="container">
 
         <!--About Heading-->
-        <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+        <div class="mx-auto p-3 mt-3 text-dark" style="width: fit-content;">
             <h2>About <span class="font-weight-bold"> us</span></h2>
             <hr class="mx-5">
         </div>

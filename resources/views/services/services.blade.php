@@ -147,5 +147,45 @@
                 </a>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/005.jpg');">
+                <a href="{{ route('eukor') }}">
+                    <div class="mx-auto text-white text-center" style="width: fit-content;">
+                        <img src="{{ url('/') }}/img/icons/truck-white.png" alt="">
+
+                        <h6>Transportation</h6>
+                        <hr class="mx-5">
+                        <h6 class="mb-3">
+                            Group’s transportation fleet consists of Heavy Duty Mercedes and Iveco (Eurotech & Stralis Models)
+                            Tractor units complimented by a range of 30 tons flat bed trailers, container chassis and low bed trailers. <br>
+                        </h6>
+                        <p class="text-justify">
+                            Own Workshop is fully equipped to handle all major repairs including complete Engine overhaul and trailer / Container repairs.
+                            Transport fleet undertake back-loading of empty containers to ports,
+                            and & also engaged in kingdom-wise & inter gulf transportation of exporters and importers.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm p-5 m-4 bg-dark half-height backgroundImage" style="background-image: url('{{ url('/') }}/img/bg/006.jpg');">
+                <a href="{{ route('hglovis') }}">
+                    <div class="mx-auto text-white text-center" style="width: fit-content;">
+                        <img src="{{ url('/') }}/img/icons/warehouse-white.png" alt="">
+                        <h6>Logistics</h6>
+                        <hr class="mx-5">
+                        <h6 class="mb-3">
+                            By reinforcing global key capacities through “selection and concentration”, we will
+                            provide differentiated value in logistics and distribution. <br>
+                        </h6>
+                        <p class="text-justify">
+                            We will actively secure a new momentum for sustainable growth and reinforce
+                            corporate social responsibility.
+                            To create customer value, the sense of challenge and innovation at Hyundai
+                            Glovis will continue.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>

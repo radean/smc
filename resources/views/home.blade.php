@@ -8,7 +8,7 @@
             <div class="tab-pane fade show active" id="truck" role="tabpanel" aria-labelledby="truck-tab">
                 <div class="d-block main-bg-truck text-center">
                     <div class="d-none d-md-block mx-auto bg-caption">
-                        <h5 id="heading" class="big-headings">Trucks </h5>
+                        <h5 id="heading" class="big-headings">Transportation</h5>
                         <p id="subHeading" class="big-captions">Captions</p>
                     </div>
                 </div>

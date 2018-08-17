@@ -48,7 +48,7 @@
                             <a class="nav-link {{ Request::path() == 'about' ? 'active' : '' }}" href="/about"> <h5 class="font-weight-light">About</h5> </a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link {{ Request::path() == 'service' ? 'active' : '' }}" href="{{ route('service') }}"> <h5 class="font-weight-light">Services</h5> </a>
+                            <a class="nav-link {{ Request::path() == 'services' ? 'active' : '' }}" href="{{ route('service') }}"> <h5 class="font-weight-light">Services</h5> </a>
                         </li>
                         <li class="nav-item px-2 dropdown" >
                             <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a href="{{ route('service') }}" class="nav-link dropdown-toggle">Shipping</a></h5>
