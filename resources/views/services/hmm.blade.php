@@ -15,11 +15,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 quarter-height p-5 text-center">
-                    <h1 class="font-weight-bold text-justify">
+                    <h4 class="font-weight-bold text-justify">
                         HMM is a global integrated
                         logistics company providing
                         the best transport services.
-                    </h1>
+                    </h4>
                     <h5 class="text-justify">
                         Our professionally skilled and experienced staffs
                         provide customers with world-class transportation
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="container p-5">
+        <div class="container ">
             <!--Text-->
             <!--HMM Vessels Services-->
             <div class="row mt-5">

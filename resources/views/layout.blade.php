@@ -27,7 +27,7 @@
         <div class="col-sm position-absolute" style="z-index: 10">
             <nav class="navbar navbar-expand-md text-white bg-transparent font-weight-light px-5 font-weight-bold">
                 <a class="navbar-brand px-5" href="/">
-                    <img src="{{ url('/') }}/img/logo.png" width="100%" height="100%" class="d-inline-block" alt="">
+                    <img src="{{ url('/') }}/img/logo.png" width="100%" class="d-inline-block" alt="">
                     <!--        Saudi Maritime Company-->
                 </a>
                 <!--<a class="navbar-brand" href="#">Saudi Maritime Company</a>-->
@@ -137,7 +137,7 @@
     <div class="row border border-bottom-0 px-4">
         <div class="col-sm-6 p-5">
             <a class="navbar-brand " href="/">
-                <img src="{{ url('/') }}/img/logoB.png" width="100%" height="100%" class="d-inline-block" alt="">
+                <img src="{{ url('/') }}/img/logoB.png" width="100%" class="d-inline-block" alt="">
             </a>
         </div>
         <div class="col-sm-3 p-5">
