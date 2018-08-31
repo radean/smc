@@ -7,7 +7,7 @@
         <!--Page BGS Image-->
         <div class="row">
             <div class="col-sm-12 bgs permaBG half-height p-5">
-                <div class="mx-auto p-5 mt-5 text-dark" style="width: fit-content;">
+                <div class="mx-auto p-5 mt-5 text-dark center-element" style="width: fit-content;">
                     <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">Perma Shipping Line.</h1>
                 </div>
             </div>
@@ -15,10 +15,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 p-5">
-                    <h1 class="font-weight-bold text-justify">
+                    <h5 class="font-weight-bold text-justify">
                         Perma Shipping Line has been on the forefront of providing service into niche markets such as Um Qasr in Iraq.
-                    </h1>
-                    <h5 class="text-justify pl-5 p-5">
+                    </h5>
+                    <h5 class="text-justify">
                         With its dedicated office in Iraq, Perma Shipping Line has been able to provide inland destinations for its customers.
                     </h5>
                 </div>
@@ -27,7 +27,7 @@
         <div class="container p-5">
             <!--Pictured-Text-->
             <!--Perma About-->
-            <div class="row mt-5">
+            <div class="row ">
 <!--                <div class="col-sm-8">-->
 <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/permaSingapore.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
 <!--                </div>-->
