@@ -17,9 +17,9 @@
             <!--Services Transport-->
             <div class="row mt-5">
                 <div class="col-sm-12">
-                    <h1>
-                        <span class="font-weight-bold"> TRANSPORTATION </span>
-                    </h1>
+                    <h2>
+                        <span class="font-weight-bold"> Transportation </span>
+                    </h2>
                     <h5 class="text-justify">
                         Group’s transportation fleet consists of Heavy Duty Mercedes and Iveco (Eurotech & Stralis Models)
                         Tractor units complimented by a range of 30 tons flat bed trailers, container chassis and low bed trailers.
@@ -36,7 +36,7 @@
                         <tbody>
                         <tr>
                             <td>
-                                <p><strong>Cities</strong></p>
+                                <p>Cities</p>
                             </td>
                             <td>
                                 <p>Dammam</p>

@@ -6,7 +6,7 @@
     <div class="container-fluid" style="padding: 0px">
         <!--Page BGS Image-->
         <div class="row">
-            <div class="col-sm-12 bgs glovisBG half-height p-5">
+            <div class="col-sm-12 bgs eukorBG half-height p-5">
                 <div class="mx-auto p-5 mt-5 text-dark center-element" style="width: fit-content;">
                     <h1 style="font-size: 3.25rem;" class="font-weight-bold text-white">EUKOR Car Carriers Inc.</h1>
                 </div>
@@ -27,13 +27,22 @@
 <!--            </div>-->
 <!--        </div>-->
         <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-4 text-center center-block">
+                </div>
+                <div class="col-sm-4 text-center center-block">
+                    <img src="{{ url('/') }}/img/logos/eukor.png" alt="">
+                </div>
+                <div class="col-sm-4 text-center center-block">
+                </div>
+            </div>
             <!--Pictured-Text-->
             <!--Eukor About-->
             <div class="row mt-12">
                 <div class="col-sm-12">
-                    <h2>
-                        <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.
-                    </h2>
+<!--                    <h2>-->
+<!--                        <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.-->
+<!--                    </h2>-->
 <!--                    <hr class="m-5">-->
                     <h5 class="text-justify">
                         We deliver tailor-made ocean transport and logistics services of the highest quality to our customers in the field of auto, rolling equipment and breakbulk.
@@ -46,14 +55,11 @@
             </div>
             <!--Pictured-Text-->
             <!--Perma Global Service Network-->
-            <div class="row mt-5 shadow p-5">
-                <div class="col-sm-4 text-center">
-                    <img src="{{ url('/') }}/img/logos/eukor.png" alt="">
-                </div>
-                <div class="col-sm-8">
-                    <h2>
-                        <span class="font-weight-bold"> Worldwide </span> Network
-                    </h2> <br>
+            <div class="row">
+                <div class="col-sm-12">
+<!--                    <h2>-->
+<!--                        <span class="font-weight-bold"> Worldwide </span> Network-->
+<!--                    </h2> <br>-->
                     <h5 class="text-justify">
                         EUKOR operates a large and modern fleet of specialised Pure Car and Truck Carriers (PCTC),
                         embracing some of the largest vessels in the world - annually transporting around four million car equivalent units worldwide through our global network of offices and agents.
@@ -62,14 +68,14 @@
             </div>
             <!--Pictured-Text-->
             <!--Eukor Quality Service-->
-            <div class="row mt-5">
+            <div class="row">
 <!--                <div class="col-sm-8">-->
 <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/hmmCarrier.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
 <!--                </div>-->
                 <div class="col-sm-12">
-                    <h1>
-                        <span class="font-weight-bold">Global</span> Network
-                    </h1>
+<!--                    <h1>-->
+<!--                        <span class="font-weight-bold">Global</span> Network-->
+<!--                    </h1>-->
 <!--                    <hr class="m-2">-->
                     <h5 class="text-justify">
                         We combine the best of what Korea and Europe have to offer. Having the Hyundai Motor Company and Kia Motors as shareholders (20%)
@@ -83,12 +89,12 @@
             </div>
             <!--Pictured-Text-->
             <!--Eukor About-->
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-sm-6 text-center">
 <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/eukorServices.jpg" width="100%" alt="">-->
-                    <h2 class="mt-4">
-                        <span class="font-weight-bold">Quality</span> Services
-                    </h2>
+<!--                    <h2 class="mt-4">-->
+<!--                        <span class="font-weight-bold">Quality</span> Services-->
+<!--                    </h2>-->
 <!--                    <hr class="m-4">-->
                     <h5 class="text-justify">
                         Through continuous expansion of our route network and an emphasis on quality of service, we deliver total customer satisfaction. We aim to become the industry’s most preferred operator.
@@ -96,9 +102,9 @@
                 </div>
                 <div class="col-sm-6 text-center">
 <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/eukorTeam.jpg" width="100%"  alt="">-->
-                    <h2 class="mt-4">
-                        <span class="font-weight-bold">Professional</span> Team
-                    </h2>
+<!--                    <h2 class="mt-4">-->
+<!--                        <span class="font-weight-bold">Professional</span> Team-->
+<!--                    </h2>-->
 <!--                    <hr class="m-4">-->
                     <h5 class="text-justify">
                         With our global team of highly skilled professionals,

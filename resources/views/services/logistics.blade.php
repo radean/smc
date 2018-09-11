@@ -17,9 +17,9 @@
             <!--Services Logistics-->
             <div class="row mt-5">
                 <div class="col-sm-12">
-                    <h1>
-                        <span class="font-weight-bold"> LOGISTICS </span>
-                    </h1>
+                    <h2>
+                        <span class="font-weight-bold"> Logistics </span>
+                    </h2>
                     <h5 class="text-justify">
                         Being part of ABSA Group, the Logistics infrastructure embraces purchasing, supplier management,
                         materials management, manufacturing, inventory management, warehousing, distribution, transport and customer service.Today Logistics,

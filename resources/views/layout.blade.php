@@ -8,6 +8,7 @@
     <title>Saudi Maritime Company</title>
 
     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
     <!--Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -18,6 +19,10 @@
     <!--Custom-->
 <!--    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">-->
     <link rel="stylesheet" href="{{ url('/') }}/css/style.css ">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </head>
 
 <body >
@@ -194,16 +199,19 @@
 <!--    </div>-->
 </div>
 <!--Jquery-->
-<script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+
 <!--GSAP-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 <!--CUSTOM-->
 
 <script src="{{ url('/') }}/js/app.js"></script>
 <script src="{{ url('/') }}/js/main.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 4000
+    })
+</script>
+
 
 <!--<script src="{{ secure_asset('css/js/app.js') }}"></script>-->
 <!--<script src="{{ secure_asset('js/app.js') }}"></script>-->

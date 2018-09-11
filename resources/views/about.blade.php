@@ -16,7 +16,7 @@
         <!--About Heading-->
         <div class="mx-auto p-3 mt-3 text-dark center-element">
             <h2>About <span class="font-weight-bold"> us</span></h2>
-            <hr class="mx-5">
+            <hr class="mx-3">
         </div>
         <!--Text About-->
         <h5 class="text-justify">

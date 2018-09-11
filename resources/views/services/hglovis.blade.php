@@ -20,9 +20,9 @@
 <!--                    <img class="shadow" src="{{ url('/') }}/img/bg/glovisLogistics.jpg" width="100%" height="100%" class="d-inline-block" alt="">-->
 <!--                </div>-->
                 <div class="col-sm-12 ">
-                    <h1>
-                        <span class="font-weight-bold"> About </span> Hyundai Glovis.
-                    </h1>
+<!--                    <h1>-->
+<!--                        <span class="font-weight-bold"> About </span> Hyundai Glovis.-->
+<!--                    </h1>-->
 <!--                    <hr class="m-5">-->
                     <h5 class="text-justify">
                         By reinforcing global key capacities through “selection and concentration”, we will provide differentiated value in logistics and distribution.
