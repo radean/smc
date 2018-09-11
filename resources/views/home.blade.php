@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <div class="d-block main-bg-truck text-center">
                     <div class="d-none d-md-block mx-auto bg-caption">
-                        <h5 id="heading" class="big-headings">TRANSPORTATION</h5>
+<!--                        <h5 id="heading" class="big-headings">TRANSPORTATION</h5>-->
                         <!--                        <p id="subHeading" class="big-captions">Captions</p>-->
                     </div>
                 </div>
@@ -16,7 +16,7 @@
             <div class="carousel-item">
                 <div class="d-block main-bg-air text-center">
                     <div class="d-none d-md-block mx-auto bg-caption">
-                        <h5 id="heading" class="big-headings">AIR FREIGHT</h5>
+<!--                        <h5 id="heading" class="big-headings">AIR FREIGHT</h5>-->
                         <!--                        <p id="subHeading" class="big-captions">Captions</p>-->
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <div class="carousel-item">
                 <div class="d-block main-bg-ocean text-center">
                     <div class="d-none d-md-block mx-auto bg-caption">
-                        <h5 id="heading" class="big-headings">OCEAN CARGO</h5>
+<!--                        <h5 id="heading" class="big-headings">OCEAN CARGO</h5>-->
                         <!--                        <p id="subHeading" class="big-captions">Captions</p>-->
                     </div>
                 </div>
@@ -32,7 +32,7 @@
             <div class="carousel-item">
                 <div class="d-block main-bg-warehouse text-center">
                     <div class="d-none d-md-block mx-auto bg-caption">
-                        <h5 id="heading" class="big-headings">WAREHOUSE</h5>
+<!--                        <h5 id="heading" class="big-headings">WAREHOUSE</h5>-->
                         <!--                        <p id="subHeading" class="big-captions">Captions</p>-->
                     </div>
                 </div>

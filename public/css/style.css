@@ -36,13 +36,13 @@
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/hmm.jpg");
 }
 .transportationBG {
-    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/trucks.jpg");
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/trucks-cover.jpg");
 }
 .logisticsBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/logistics.jpg");
 }
 .servicesBG {
-    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/services.jpg");
+    background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/perma.jpg");
 }
 .permaBG {
     background: linear-gradient(black ,transparent ,transparent), url("/img/broadcast/perma.jpg");
@@ -115,22 +115,22 @@ a:hover {
 /*=========================*/
 /* M  A  I  N  C  A  R  O  U  S  E  L*/
 .main-bg-truck{
-    background-image: url("/img/broadcast/trucks.jpg");
+    background-image: url("/img/broadcast/hmm.jpg");
     background-size: cover;
     height: 65vh;
 }
 .main-bg-ocean{
-    background-image: url("/img/broadcast/containers.jpg");
+    background-image: url("/img/broadcast/perma.jpg");
     background-size: cover;
     height: 65vh;
 }
 .main-bg-air{
-    background-image: url("/img/broadcast/air.jpg");
+    background-image: url("/img/broadcast/eukor.jpg");
     background-size: cover;
     height: 65vh;
 }
 .main-bg-warehouse{
-    background-image: url("/img/broadcast/warehouse.jpg");
+    background-image: url("/img/broadcast/glovis.jpg");
     background-size: cover;
     height: 65vh;
 }
