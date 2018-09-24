@@ -26,7 +26,10 @@
 </head>
 
 <body >
+
+
 <!--Main Navigation Bar-->
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm position-absolute" style="z-index: 10">
@@ -39,7 +42,6 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-end px-5" id="navbarsExampleDefault">
                 </div>
             </nav>
@@ -59,9 +61,9 @@
                             <h5 class="font-weight-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><a href="{{ route('service') }}" class="nav-link dropdown-toggle">Shipping</a></h5>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{{ route('hmm') }}"><h5 class="font-weight-light">HMM (Hyundai Merchant Marine)</h5></a>
-                                <a class="dropdown-item" href="{{ route('perma') }}"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
-                                <a class="dropdown-item" href="{{ route('eukor') }}"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
                                 <a class="dropdown-item" href="{{ route('hglovis') }}"><h5 class="font-weight-light">Hyundai Glovis</h5></a>
+                                <a class="dropdown-item" href="{{ route('eukor') }}"><h5 class="font-weight-light">EUKOR Car Carrier Inc</h5></a>
+                                <a class="dropdown-item" href="{{ route('perma') }}"><h5 class="font-weight-light">Perma Shipping Line</h5></a>
                             </div>
                         </li>
                         <li class="nav-item px-2">
@@ -118,7 +120,7 @@
                 Fax : +966-13-8274778 <br>
             </div>
             <div class="col-sm p-5">
-                <h4 class="font-weight-bold">Riyadh Branch</h4>
+                <h4 class="font-weight-bold">Riyadh</h4>
                 <h5>Al – Barrak building</h5>
                 <hr>
                 P.O.Box # 16127, <br>
@@ -127,8 +129,8 @@
                 Fax : +966-11 2067553 <br>
             </div>
             <div class="col-sm p-5">
-                <h4 class="font-weight-bold">Branch-Jeddah</h4>
-                <h5>Jeddah Branch</h5>
+                <h4 class="font-weight-bold">Jeddah</h4>
+                <h5>Jeddah</h5>
                 <hr>
                 Captain Barrak Commercial Tower, <br>
                 Al Baghdadia Jeddah 21484, <br>

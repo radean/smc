@@ -97,13 +97,13 @@
         </div>
         <!--Text About-->
         <h5 class="text-justify">
-            Saudi Maritime Company was established in early 1970’s by setting up an office in Dammam
+            Saudi Maritime Company was established in 1988 by setting up an office in Dammam
             at Kingdom of Saudi Arabia by an enterprising Saudi Marine Captain, Ibrahim Barrak Al
             Omani, educated in United Kingdom and served as senior Ranking Officer on board reputed
             international shipping lines. Within a short span of time we have grown regionally covering
             Western and Eastern region of KSA. Our unique business model and enduring commitment
-            propels us forward, we reach our goals. Saudi Maritime became part of absco.com (ABSA
-            Group) in 1988 serving Principals and Agents worldwide.
+            propels us forward, we reach our goals. Saudi Maritime became part of ABSA (ALBARRAK GROUP)
+            in 1988 serving Principals and Agents worldwide.
         </h5>
         <h5 class="text-justify">
             Saudi Maritime Company has grown enormously and gained the reputation of being one of

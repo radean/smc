@@ -26,7 +26,7 @@
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        <div class="container p-5">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-4 text-center center-block">
                 </div>
@@ -40,10 +40,10 @@
             <!--Eukor About-->
             <div class="row mt-12">
                 <div class="col-sm-12">
-<!--                    <h2>-->
-<!--                        <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.-->
-<!--                    </h2>-->
-<!--                    <hr class="m-5">-->
+<!--                <h2>-->
+<!--                    <span class="font-weight-bold"> About </span> EUKOR Car Carriers Inc.-->
+<!--                </h2>-->
+<!--                <hr class="m-5">-->
                     <h5 class="text-justify">
                         We deliver tailor-made ocean transport and logistics services of the highest quality to our customers in the field of auto, rolling equipment and breakbulk.
                         One of our key business is the export of ’Hyundai and Kia Motors’ vehicles from their plants in Korea. We also serve most of the other global automotive leaders.
@@ -111,11 +111,20 @@
                         we confidently take on every challenge that the automotive industry requires. We, at EUKOR, firmly believe that nothing is impossible.
                         The opportunity lies in the challenge.
                     </h5> <br>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 py-5">
+                    <h3>
+                        Related Links
+                    </h3>
+                    <a href="http://www.eukor.com"> <button type="button" class="btn btn-outline-primary">Eukor Website</button></a>
                 </div>
             </div>
 
 
-            <!--Eplore Other Services Button-->
+<!--            Eplore Other Services Button-->
 <!--            <div class="mx-auto p-5 text-dark" style="width: fit-content;">-->
 <!--                <a href="{{ route('service') }}">-->
 <!--                    <button type="button" class="btn btn-lg btn-outline-primary">Explore other services</button>-->

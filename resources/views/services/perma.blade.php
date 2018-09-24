@@ -68,6 +68,15 @@
                     </h5> <br>
                 </div>
             </div>
+            <!--Explore Websites-->
+            <div class="row">
+                <div class="col-sm-12 py-5">
+                    <h3>
+                        Related Links
+                    </h3>
+                    <a href="http://www.permashippingline.com"> <button type="button" class="btn btn-outline-primary">Perma Website</button> </a>
+                </div>
+            </div>
             <!--Eplore Other Services Button-->
 <!--            <div class="mx-auto p-5 text-dark" style="width: fit-content;">-->
 <!--                <a href="{{ route('service') }}">-->

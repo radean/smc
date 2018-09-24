@@ -29,6 +29,28 @@
                         We will actively secure a new momentum for sustainable growth and reinforce corporate social responsibility.
                         To create customer value, the sense of challenge and innovation at Hyundai Glovis will continue.
                     </h5> <br>
+                    <h3>
+                        <span class="font-weight-bold"> Finished Vehicle shipping </span> <br> Major services
+                    </h3>
+                    <ul>
+                        <li>Operate about 60 PCC (Pure Car Carrier) and PCTC (Pure Car and Truck Carrier)</li>
+                        <li>Service quality management using global systems and global networks</li>
+                    </ul>
+                    <h3>
+                        Service route and ship status
+                    </h3>
+                    <ul>
+                        <li>Hyundai Glovis has over 60 vessels of various sizes to optimize the operation of all service routes.</li>
+                    </ul>
+                </div>
+            </div>
+            <!--Explore Websites-->
+            <div class="row">
+                <div class="col-sm-12 py-5">
+                    <h3>
+                        Related Links
+                    </h3>
+                    <a href="http://www.glovis.net"> <button type="button" class="btn btn-outline-primary">Glovis Website</button> </a>
                 </div>
             </div>
             <!--Eplore Other Services Button-->
